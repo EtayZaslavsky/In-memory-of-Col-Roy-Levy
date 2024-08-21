@@ -22,10 +22,10 @@ const lato = Lato({
   weight: "400",
 });
 
-export const metadata: Metadata = {
-  title: "Tina",
-  description: "Tina Cloud Starter",
-};
+// export const metadata: Metadata = {
+//   title: "רועי לוי",
+//   description: "Tina Cloud Starter",
+// };
 
 export default async function RootLayout({
   children,
@@ -51,7 +51,7 @@ export default async function RootLayout({
   const fontVariable = selectFont(global.theme.font);
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="he" dir="rtl" suppressHydrationWarning>
       <body
         className={cn("min-h-screen flex flex-col antialiased", fontVariable)}
       >

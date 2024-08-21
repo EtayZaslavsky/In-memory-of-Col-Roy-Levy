@@ -75,31 +75,14 @@ const Global: Collection = {
           ],
         },
         {
-          type: "object",
-          label: "Social Links",
-          name: "social",
-          fields: [
-            {
-              type: "string",
-              label: "Facebook",
-              name: "facebook",
-            },
-            {
-              type: "string",
-              label: "Twitter",
-              name: "twitter",
-            },
-            {
-              type: "string",
-              label: "Instagram",
-              name: "instagram",
-            },
-            {
-              type: "string",
-              label: "Github",
-              name: "github",
-            },
-          ],
+          type: "string",
+          label: "Text",
+          name: "text",
+        },
+        {
+          type: "image",
+          label: "Hand Written Phrase",
+          name: "image",
         },
       ],
     },

@@ -115,7 +115,7 @@ export const Icon = ({
     const iconColorClasses =
       iconColorClass[
         parentColor === "primary" &&
-        (iconColor === theme.color || iconColor === "primary")
+          (iconColor === theme.color || iconColor === "primary")
           ? "white"
           : iconColor
       ].regular;

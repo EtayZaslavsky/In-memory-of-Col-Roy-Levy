@@ -2,12 +2,7 @@
 import React from "react";
 import { cn } from "../../lib/utils";
 import { Container } from "../layout/container";
-import Link from "next/link";
-import { Icon } from "../icon";
-import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
 import { useLayout } from "../layout/layout-context";
-import { RawRenderer } from "../raw-renderer";
 
 export default function Footer() {
   const { theme, globalSettings, pageData } = useLayout();
@@ -28,7 +23,8 @@ export default function Footer() {
 
   const footerColor = {
     default:
-      "text-gray-800 from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000",
+      "text-white from-green-500 to-green-600",
+    // "text-gray-800 from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000",
     primary: {
       blue: "text-white from-blue-500 to-blue-700",
       teal: "text-white from-teal-500 to-teal-600",
@@ -50,96 +46,16 @@ export default function Footer() {
     <footer className={cn(`bg-gradient-to-br`, footerColorCss)}>
       <Container className="relative" size="small">
         <div className="flex justify-between items-center gap-6 flex-wrap">
-          <Link
-            href="/"
-            className="group mx-2 flex items-center font-bold tracking-tight text-gray-400 dark:text-gray-300 opacity-50 hover:opacity-100 transition duration-150 ease-out whitespace-nowrap"
-          >
-            <Icon
-              parentColor={footer.color}
-              data={{
-                name: globalSettings?.header.icon.name,
-                color:
-                  theme.color === "primary"
-                    ? "primary"
-                    : globalSettings?.header.icon.color,
-                style: globalSettings?.header.icon.style,
-              }}
-              className="inline-block h-10 w-auto group-hover:text-orange-500"
-            />
-          </Link>
-          <div className="flex gap-4">
-            {footer.social && footer.social.facebook && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={footer.social.facebook}
-                target="_blank"
-              >
-                <FaFacebookF
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      footer.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {footer.social && footer.social.twitter && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={footer.social.twitter}
-                target="_blank"
-              >
-                <FaTwitter
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      footer.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {footer.social && footer.social.instagram && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={footer.social.instagram}
-                target="_blank"
-              >
-                <AiFillInstagram
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      footer.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {footer.social && footer.social.github && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={footer.social.github}
-                target="_blank"
-              >
-                <FaGithub
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      footer.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-          </div>
-          <RawRenderer parentColor={footer.color} rawData={pageData} />
-        </div>
-        <div
-          className={cn(
-            `absolute h-1 bg-gradient-to-r from-transparent`,
-            theme.darkMode === "primary"
-              ? `via-white`
-              : `via-black dark:via-white`,
-            "to-transparent bottom-0 left-4 right-4 -z-1 opacity-5"
+          <img src={footer?.image} />
+          {footer?.text && (
+            <div className="text-center w-full">
+              {/* <div className="border-t border-yellow-500 my-4"></div> */}
+              <div className="text-xs sm:text-sm text-yellow-50">
+                {footer.text}
+              </div>
+            </div>
           )}
-        />
+        </div>
       </Container>
     </footer>
   );

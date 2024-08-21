@@ -3,6 +3,7 @@ import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
+import { galleryBlockSchema } from "../../components/blocks/gallery";
 
 const Page: Collection = {
   label: "Pages",
@@ -30,6 +31,20 @@ const Page: Collection = {
       required: true,
     },
     {
+      type: "string",
+      label: "Description",
+      name: "description",
+      description:
+        "The description of the page. This is used to display the description in the CMS",
+    },
+    {
+      type: "image",
+      label: "Hero Image",
+      name: "hero",
+      description:
+        "The Hero Image. This is used as the background image for the header",
+    },
+    {
       type: "object",
       list: true,
       name: "blocks",
@@ -41,6 +56,7 @@ const Page: Collection = {
         heroBlockSchema,
         //@ts-ignore
         featureBlockSchema,
+        // galleryBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
       ],

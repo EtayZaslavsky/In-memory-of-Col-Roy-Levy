@@ -26,8 +26,8 @@ export const Section = ({ children, color = "", className = "" }) => {
     color === "primary"
       ? sectionColor.primary[theme.color]
       : sectionColor[color]
-      ? sectionColor[color]
-      : sectionColor.default;
+        ? sectionColor[color]
+        : sectionColor.default;
 
   return (
     <section

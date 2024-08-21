@@ -1,34 +1,42 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
       "color": "orange",
       "style": "float"
     },
-    "name": "Tina Starter",
+    "name": "רועי לוי",
     "color": "default",
     "nav": [
       {
         "href": "",
-        "label": "Home"
+        "label": "בית"
+      },
+      {
+        "href": "friends-stories",
+        "label": "חברים מספרים"
+      },
+      {
+        "href": "from-the-media",
+        "label": "מהתקשורת"
+      },
+      {
+        "href": "memorial",
+        "label": "הנצחה"
       },
       {
         "href": "about",
-        "label": "About"
+        "label": "על רועי"
       },
       {
-        "href": "posts",
-        "label": "Blog"
+        "href": "gallery",
+        "label": "תמונות"
       }
     ]
   },
   "footer": {
     "color": "default",
-    "social": {
-      "facebook": "/",
-      "twitter": "/",
-      "instagram": "/"
-    }
+    "text": "כל הזכויות שמורות. אין לעשות שימוש בתכנים מאתר זה ללא אישור בכתב ממשפחתו של אל״מ רועי לוי ז״ל.",
+    "image": "/uploads/phrase.png"
   },
   "theme": {
     "color": "blue",
