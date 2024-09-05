@@ -1,6 +1,5 @@
 "use client";
 import * as React from "react";
-import Image from "next/image";
 import { tinaField } from "tinacms/dist/react";
 import { Section } from "../layout/section";
 import { Container } from "../layout/container";
@@ -26,7 +25,7 @@ export const ImageGallery: React.FC<{ data: PageBlocksImageGallery }> = ({ data 
           {data.images?.map((image, index) => (
             <div key={index} className="relative">
               {image.src && (
-                <Image
+                <img
                   src={image.src}
                   alt={image.alt ?? "Gallery Image"}
                   width={500}
