@@ -1,7 +1,7 @@
 ---
 title: תמונות
 description: מהאלבום המשפחתי
-hero: /uploads/gallery-cover.jpeg
+hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
   - title: ''
     images:
