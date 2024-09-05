@@ -3,7 +3,12 @@ import { heroBlockSchema } from "../../components/blocks/hero";
 import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
-import { galleryBlockSchema } from "../../components/blocks/gallery";
+import { imageGalleryBlockSchema } from "../../components/blocks/image-gallery";
+import { videoBlockSchema } from "../../components/blocks/video-card";
+import { imageBlockSchema } from "../../components/blocks/image-card";
+import { timeframeBlockSchema } from "../../components/blocks/timeline";
+import { storyFormBlockSchema } from "../../components/blocks/story-form";
+import { storiesBlockSchema } from "../../components/blocks/stories";
 
 const Page: Collection = {
   label: "Pages",
@@ -11,13 +16,22 @@ const Page: Collection = {
   path: "content/pages",
   ui: {
     router: ({ document }) => {
-      if (document._sys.filename === "home") {
-        return `/`;
+      switch (document._sys.filename) {
+        case "home":
+          return `/`;
+        case "about":
+          return `/about`;
+        case "from-the-media":
+          return `/from-the-media`;
+        case "friends-stories":
+          return `/friends-stories`;
+        case "gallery":
+          return `/gallery`;
+        case "memorial":
+          return `/memorial`;
+        default:
+          return undefined;
       }
-      if (document._sys.filename === "about") {
-        return `/about`;
-      }
-      return undefined;
     },
   },
   fields: [
@@ -56,9 +70,17 @@ const Page: Collection = {
         heroBlockSchema,
         //@ts-ignore
         featureBlockSchema,
-        // galleryBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
+        imageGalleryBlockSchema,
+        videoBlockSchema,
+        imageBlockSchema,
+        //@ts-ignore
+        timeframeBlockSchema,
+        //@ts-ignore
+        storyFormBlockSchema,
+        //@ts-ignore
+        storiesBlockSchema,
       ],
     },
   ],

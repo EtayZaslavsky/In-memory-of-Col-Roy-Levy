@@ -53,7 +53,7 @@ export default async function RootLayout({
   return (
     <html lang="he" dir="rtl" suppressHydrationWarning>
       <body
-        className={cn("min-h-screen flex flex-col antialiased", fontVariable)}
+        className={cn("min-h-screen flex flex-col antialiased dark", fontVariable)}
       >
         <ThemeProvider
           attribute="class"

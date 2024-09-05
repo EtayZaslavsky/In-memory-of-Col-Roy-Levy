@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useLayout } from "../layout/layout-context";
 
 const activeItemClasses = {
-  blue: "border-b-3 border-blue-200 text-blue-700 dark:text-blue-300 font-medium dark:border-blue-700",
+  blue: "border-b-3 border-black-200 text-black-700 dark:text-black-300 font-medium dark:border-black-700",
   teal: "border-b-3 border-teal-200 text-teal-700 dark:text-teal-300 font-medium dark:border-teal-700",
   green:
     "border-b-3 border-green-200 text-green-700 dark:text-green-300 font-medium dark:border-green-700",

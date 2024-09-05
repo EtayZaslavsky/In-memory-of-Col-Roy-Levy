@@ -19,32 +19,30 @@ export const Feature = ({
   return (
     <div
       data-tina-field={tinaField(data)}
-      className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl mx-auto"
-      style={{ flexBasis: "16rem" }}
-    >
-      {data.icon && (
-        <Icon
-          tinaField={tinaField(data, "icon")}
-          parentColor={featuresColor}
-          data={{ size: "large", ...data.icon }}
-        />
-      )}
-      {data.title && (
-        <h3
-          data-tina-field={tinaField(data, "title")}
-          className="text-2xl font-semibold title-font"
-        >
-          {data.title}
-        </h3>
-      )}
-      {data.text && (
-        <p
-          data-tina-field={tinaField(data, "text")}
-          className="text-base opacity-80 leading-relaxed"
-        >
-          {data.text}
-        </p>
-      )}
+      // className="flex-1 flex flex-col items-center max-w-xl mx-auto"
+      className=""
+      style={{ flexBasis: "8rem" }}
+    ><a href={data.link}>
+        {data.icon && (
+          <div className="w-full flex justify-center items-center">
+            <img src={data.icon} className="w-16 h-16" />
+          </div>
+
+          // <Icon
+          //   tinaField={tinaField(data, "icon")}
+          //   parentColor={featuresColor}
+          //   data={{ size: "large", ...data.icon }}
+          // />
+        )}
+        {data.title && (
+          <h3
+            data-tina-field={tinaField(data, "title")}
+            className="text-xl font-semibold title-font"
+          >
+            {data.title}
+          </h3>
+        )}
+      </a>
     </div>
   );
 };
@@ -53,7 +51,7 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
   return (
     <Section color={data.color}>
       <Container
-        className={`flex flex-wrap gap-x-10 gap-y-8 text-left`}
+        className={`flex flex-wrap justify-around gap-x-10 gap-y-8 text-center`}
         size="large"
       >
         {data.items &&
@@ -67,12 +65,8 @@ export const Features = ({ data }: { data: PageBlocksFeatures }) => {
 
 const defaultFeature = {
   title: "Here's Another Feature",
-  text: "This is where you might talk about the feature, if this wasn't just filler text.",
-  icon: {
-    color: "",
-    style: "float",
-    name: "",
-  },
+  link: "/",
+  icon: ""
 };
 
 export const featureBlockSchema = {
@@ -101,7 +95,12 @@ export const featureBlockSchema = {
         },
       },
       fields: [
-        iconSchema,
+        // iconSchema,
+        {
+          type: "image",
+          label: "Icon",
+          name: "icon",
+        },
         {
           type: "string",
           label: "Title",
@@ -109,11 +108,8 @@ export const featureBlockSchema = {
         },
         {
           type: "string",
-          label: "Text",
-          name: "text",
-          ui: {
-            component: "textarea",
-          },
+          label: "Link",
+          name: "link",
         },
       ],
     },
