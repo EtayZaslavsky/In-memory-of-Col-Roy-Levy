@@ -43,11 +43,10 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               className={`w-full relative mb-10 text-5xl font-extrabold tracking-normal leading-tight title-font`}
             >
               <span
-                className={`bg-clip-text text-transparent bg-gradient-to-r  ${
-                  data.color === "primary"
+                className={`bg-clip-text text-transparent bg-gradient-to-r  ${data.color === "primary"
                     ? `from-white to-gray-100`
                     : headlineColorClasses["blue"]
-                }`}
+                  }`}
               >
                 {data.headline}
               </span>
@@ -58,11 +57,10 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               {data.text && (
                 <div
                   data-tina-field={tinaField(data, "text")}
-                  className={`prose prose-lg mx-auto md:mx-0 mb-10 ${
-                    data.color === "primary"
+                  className={`prose prose-lg mx-auto md:mx-0 mb-10 ${data.color === "primary"
                       ? `prose-primary`
                       : `dark:prose-dark`
-                  }`}
+                    }`}
                 >
                   <TinaMarkdown content={data.text} />
                 </div>
@@ -87,9 +85,8 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
           {data.text2 && (
             <div
               data-tina-field={tinaField(data, "text2")}
-              className={`prose prose-lg mx-auto md:mx-0 mb-10 ${
-                data.color === "primary" ? `prose-primary` : `dark:prose-dark`
-              }`}
+              className={`prose prose-lg mx-auto md:mx-0 mb-10 ${data.color === "primary" ? `prose-primary` : `dark:prose-dark`
+                }`}
             >
               <TinaMarkdown content={data.text2} />
             </div>
