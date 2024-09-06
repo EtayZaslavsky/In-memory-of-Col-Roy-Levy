@@ -1,7 +1,7 @@
 ---
 title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023.'
-hero: /uploads/home-cover.jpeg
+hero: /uploads/public/uploads/home-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
