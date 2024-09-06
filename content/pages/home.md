@@ -6,7 +6,7 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
-    title: סרטון ההנצחה
+    title: סרטון ההנצחה!
     description: |
       ״לכבוד החברים הרבים שנותרו בשדות הקרב,
       ואלה ששדות הקרב נותרו איתם״
