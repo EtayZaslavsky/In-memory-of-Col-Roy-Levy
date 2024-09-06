@@ -14,25 +14,25 @@ blocks:
     linkText: ''
     _template: video
   - items:
-      - icon: /uploads/symbols/94f22b00529e72ca0ec43f68c0c602c9.png
+      - icon: /uploads/public/uploads/symbols/94f22b00529e72ca0ec43f68c0c602c9.png
         title: חברים מספרים
         link: /friends-stories
-      - icon: /uploads/symbols/934aedf9ea7b99b17ecf0fc371df8c85.png
+      - icon: /uploads/public/uploads/symbols/934aedf9ea7b99b17ecf0fc371df8c85.png
         title: מהתקשורת
         link: /from-the-media
-      - icon: /uploads/symbols/be74c69d7ab8e05034d17bd31879e99a.png
+      - icon: /uploads/public/uploads/symbols/be74c69d7ab8e05034d17bd31879e99a.png
         title: הנצחה
         link: /memorial
-      - icon: /uploads/symbols/dc4a2391467d4628c2cdcd1f0987ac34.png
+      - icon: /uploads/public/uploads/symbols/dc4a2391467d4628c2cdcd1f0987ac34.png
         title: על רועי
         link: /about
-      - icon: /uploads/symbols/ebbf8260f29aba50cfe4c841623297e2.png
+      - icon: /uploads/public/uploads/symbols/ebbf8260f29aba50cfe4c841623297e2.png
         title: תמונות
         link: /gallery
     color: tint
     _template: features
   - mediaType: image
-    imageSrc: /uploads/68a05566a532b00c13591778cc437e7b.png
+    imageSrc: /uploads/public/uploads/68a05566a532b00c13591778cc437e7b.png
     mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
     title: אל״מ רועי לוי
     description: "בן יהודית ושלמה, נולד בארה״ב וגדל בירושלים בשכונת הר נוף בבית שחינך לערכי הציונות והיהדות.\nרועי למד בישיבה תיכונית בית אל ובשיבה גבוהה עטרת כוהנים.\_ לאחר מכן התגייס לעורב גולני. עוד\nבצעירותו סומן לגדולות וכצפוי התקדם\_ לשלל תפקידים בחטיבת גולני. רועי היה למפקד הסיירת ומפקד\nגדוד הסיור. לאורך תפקידיו השתתף רועי במספר מערכות צה״ל.\_ נפצע לראשונה במבצע עופרת יצוקה,\nושוב, באופן אנוש בראשו, במהלך מבצע צוק איתן כמפקד גדוד הסיור של גולני. הרופאים העריכו שלא\nיוכל לחזור לשירות, אבל הוא התעקש לחזור. במקביל לשיקומו הפיזי רועי למד לתואר שני במשפטים וכנגד\nכל הסיכויים חזר לשירות, וקיבל את הפיקוד על היחידה המיוחדת אגוז.\n"
@@ -41,7 +41,7 @@ blocks:
     _template: image
   - mediaSide: left
     mediaType: image
-    imageSrc: /uploads/6c86b70bd4f17f2b21238dab5751cd1b.png
+    imageSrc: /uploads/public/uploads/6c86b70bd4f17f2b21238dab5751cd1b.png
     mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
     title: יום השבעה באוקטובר
     description: "בבוקר ה-7.10 שהה רועי בחופשה עם משפחתו בביתו במושב שבי ציון בגבול הצפון. מייד עם קבלת הדיווח על חדירת המחבלים בדרום, יצא מביתו תוך שהוא מקפיץ את כל מפקדי וחיילי היחידה הרב מימדית, זאת מבלי שהוקפץ באופן פורמאלי. כבר בדרכו דרומה שוחח עימו רח\"ט מבצעים (תא״ל שלומי בינדר) אשר ביקש ממנו אישית שיעדכן בתמונת המצב העדכנית מהשטח. שיחה זו, במקביל לדיווחים שהחלו לזרום על הזוועה המתרחשת בעוטף, הבהירו לרועי את מימדי האירוע, עוד כשמרבית הכוחות לקו בהלם. רועי חלף בבסיס היחידה על מנת לקחת ציוד לחימה, ושם תדרך את מפקד צוות ההכשרות להתקדם לעבר רצועת עזה ולחתור ללחימה כמה שיותר מהר. הוא היה מהכוחות הראשונים שהצליחו להגיע לאזור הלחימה בניסיון להציל את האזרחים.\Lבדרכו לרצועה נעצר רועי בקיבוץ רעים הסמוך למיקום בו התרחשה מסיבת הנובה. הוא פרק מרכבו עם שני קשרים ומפקד מילואים נוסף ויחדיו החלו לנהל לחימה עיקשת עם המחבלים שהשתלטו על הקיבוץ. כבר בשלב מוקדם של הלחימה נפצע בידו מרסיסי רימון שהושלך לעברו, אך סירב לקבל טיפול רפואי על מנת שלא לפגוע ברוח הלוחמים ומתוך חשש כי חוסם העורקים ימנע ממנו להמשיך להילחם.\Lרועי ושותפיו הצליחו להרוג כעשרה מחבלים והצילו כ 40 לכודים מהמסיבה ומספר לא מבוטל של משפחות בני הקיבוץ שהתבצרו במקלטים.\Lבשעה 13:30 לערך, בסמוך לאחד מבתי הקיבוץ, נורה רועי בליבו מצרור מחבל ונהרג במקום.\n"
@@ -49,7 +49,7 @@ blocks:
     linkText: ''
     _template: image
   - mediaType: image
-    imageSrc: /uploads/ce9abcf55f0abf51b262db490a4057eb.png
+    imageSrc: /uploads/public/uploads/ce9abcf55f0abf51b262db490a4057eb.png
     mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
     title: 'חברים מספרים:'
     description: >
@@ -67,7 +67,7 @@ blocks:
     _template: image
   - mediaSide: left
     mediaType: image
-    imageSrc: /uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
+    imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
     title: מפעלי הנצחה לזכרו
     description: >
@@ -84,20 +84,20 @@ blocks:
     _template: image
   - title: מהאלבום המשפחתי
     images:
-      - src: /uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
-      - src: /uploads/about-cover.jpeg
-      - src: /uploads/gallery/33e03e4387397a986ee514d0cbd0930e.jpeg
-      - src: /uploads/gallery/5ad5de823666aec53072d4b5c86e1782.jpeg
-      - src: /uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
-      - src: /uploads/gallery/d6a5502aad5b705d386fc5948fa29918.jpeg
-      - src: /uploads/gallery/843d980a279ee05ff377432d0897c0a2.jpeg
-      - src: /uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
-      - src: /uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
-      - src: /uploads/gallery/528ed02ab1239929161352dbef38fc63.jpeg
-      - src: /uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
+      - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
+      - src: /uploads/public/uploads/about-cover.jpeg
+      - src: /uploads/public/uploads/gallery/33e03e4387397a986ee514d0cbd0930e.jpeg
+      - src: /uploads/public/uploads/gallery/5ad5de823666aec53072d4b5c86e1782.jpeg
+      - src: /uploads/public/uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
+      - src: /uploads/public/uploads/gallery/d6a5502aad5b705d386fc5948fa29918.jpeg
+      - src: /uploads/public/uploads/gallery/843d980a279ee05ff377432d0897c0a2.jpeg
+      - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
+      - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
+      - src: /uploads/public/uploads/gallery/528ed02ab1239929161352dbef38fc63.jpeg
+      - src: /uploads/public/uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
         alt: ''
         caption: ''
-      - src: /uploads/gallery/a5a37f934a1738d29a89b0b4904f7cfb.jpeg
+      - src: /uploads/public/uploads/gallery/a5a37f934a1738d29a89b0b4904f7cfb.jpeg
         alt: ''
         caption: ''
     _template: imageGallery

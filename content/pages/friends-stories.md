@@ -1,7 +1,7 @@
 ---
 title: חברים מספרים
 description: סיפורים אישיים מרגעים שנחקקו בלבבות
-hero: /uploads/friends-stories-cover.jpeg
+hero: /uploads/public/uploads/friends-stories-cover.jpeg
 blocks:
   - stories:
       - title: הרושם הראשוני שהלך והתחזק עם הזמן

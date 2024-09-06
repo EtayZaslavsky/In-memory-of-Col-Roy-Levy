@@ -1,7 +1,7 @@
 ---
 title: מהתקשורת
 description: קטעים מהתקשורת
-hero: /uploads/from-the-media-cover.jpeg
+hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaType: video
     mediaSrc: >-

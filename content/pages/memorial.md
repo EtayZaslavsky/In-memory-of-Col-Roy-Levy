@@ -1,11 +1,11 @@
 ---
 title: הנצחה
 description: מפעלי ואירועי הנצחה
-hero: /uploads/memorial-cover.jpeg
+hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
-    imageSrc: /uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
+    imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: ''
     title: גבעת רועי בהרי ירושלים
     description: |
@@ -18,7 +18,7 @@ blocks:
     _template: image
   - mediaSide: right
     mediaType: image
-    imageSrc: /uploads/ed6d7bb4879d193c54952e12d800624a.jpeg
+    imageSrc: /uploads/public/uploads/ed6d7bb4879d193c54952e12d800624a.jpeg
     mediaSrc: ''
     title: פינת השקיעה של רועי
     description: "בחודש מרץ 2024 נחנכה פינת השקיעה של רועי.\nבמושב שבי ציון שבגליל המערבי, היכן שרועי גר ביחד\nעם אשתו יעל וילדיהם, היתה נקודה ממש על קו החוף,\nאותה הם אהבו לפקוד מדי פעם בשעות ערב לקראת שקיעה.\nבדיוק בנקודה זו הוקמה נדנדת עץ ואבן זיכרון לידה.\nמוזמנים להגיע ולצפות בשקיעות היפות מהנדנדה.\L\n"
@@ -27,13 +27,13 @@ blocks:
     _template: image
   - title: כתבות
     images:
-      - src: /uploads/bbea679cb414629e12796e5a9383f368.png
+      - src: /uploads/public/uploads/bbea679cb414629e12796e5a9383f368.png
         alt: ''
         caption: ''
-      - src: /uploads/22d757261e19cd56a7d42ed193b6b79b.png
+      - src: /uploads/public/uploads/22d757261e19cd56a7d42ed193b6b79b.png
         alt: ''
         caption: ''
-      - src: /uploads/0638fbaed7e04b806141e98091a4845f.png
+      - src: /uploads/public/uploads/0638fbaed7e04b806141e98091a4845f.png
     _template: imageGallery
   - mediaSide: right
     mediaType: video
