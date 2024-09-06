@@ -34,8 +34,8 @@ module.exports = {
     // if (process.env.NODE_ENV === "production") {
     return [
       {
-        source: "https://assets.tina.io/a5107ffd-adb0-45bd-8212-0bf50351d198/:image*", // Match paths like /UUID/IMAGE-FILE.JPG
-        destination: "https://assets.tina.io/a5107ffd-adb0-45bd-8212-0bf50351d198/public/uploads/:image*", // Redirect to /UUID/public/uploads/IMAGE-FILE.JPG
+        source: "/a5107ffd-adb0-45bd-8212-0bf50351d198/:image*", // Match paths like /UUID/IMAGE-FILE.JPG
+        destination: "/a5107ffd-adb0-45bd-8212-0bf50351d198/public/uploads/:image*", // Redirect to /UUID/public/uploads/IMAGE-FILE.JPG
         permanent: false, // Use a 302 temporary redirect
       },
     ];
