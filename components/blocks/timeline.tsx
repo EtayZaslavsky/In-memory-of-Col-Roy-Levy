@@ -16,8 +16,6 @@ export const Timeframe = ({
 }) => {
   // Determine alignment and margin based on the index
   const alignmentClass = index % 2 === 0 ? 'lg:pr-8 lg:mr-auto' : 'lg:pl-8 lg:ml-auto';
-  const dotMarginClass = index % 2 === 0 ? 'right-0 translate-x-1/2' : 'left-0 -translate-x-1/2';
-  // const dotMarginClass = index % 2 === 0 ? 'right-0' : 'left-0';
   return (
     <div
       data-tina-field={tinaField(data)}
@@ -26,7 +24,7 @@ export const Timeframe = ({
       <div className={`absolute h-16 top-0 w-full -translate-y-1/2 left-0`}>
         {/* Dot on the timeline */}
         <div
-          className={`absolute z-10 w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center ${dotMarginClass}`}
+          className={`absolute z-10 w-16 h-16 bg-yellow-300 rounded-full flex items-center justify-center right-0 translate-x-1/2 ${index % 2 !== 0 ? 'lg:left-0 lg:right-auto lg:-translate-x-1/2' : ''}`}
         >
           {data.year && (
             <p
@@ -80,16 +78,18 @@ export const Timeline = ({ data }: { data: PageBlocksTimeline }) => {
     <Section>
       <Container className="relative flex flex-col items-center">
         {/* Timeline line */}
-        <div className="absolute w-1 bg-black dark:bg-gray-200 h-full left-1/2 transform -translate-x-1/2 hidden lg:block"></div>
+        <div className="absolute w-1 bg-black dark:bg-gray-200 h-full right-[10%] lg:right-1/2 transform translate-x-1/2 lg:translate-x-0"></div>
 
         {/* Timeframes */}
-        <div className="flex flex-col items-center w-full">
+        <div className="flex flex-col items-center w-4/5 lg:w-full">
           {data.items &&
             data.items.map((block, i) => (
               <Timeframe key={i} data={block} index={i} />
             ))}
         </div>
       </Container>
+
+
     </Section>
   );
 };
