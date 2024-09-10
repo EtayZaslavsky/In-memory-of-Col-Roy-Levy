@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { Container } from "../layout/container";
 import { cn } from "../../lib/utils";
@@ -33,6 +33,12 @@ export default function Header() {
       ? headerColor.primary[theme.color]
       : headerColor.default;
 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div
       className={`relative overflow-hidden bg-gradient-to-b ${headerColorCss}`}
@@ -45,31 +51,66 @@ export default function Header() {
               className="flex gap-1 items-center whitespace-nowrap tracking-[.002em]"
             >
               <Icon
-                tinaField={tinaField(header, "icon")}
+                tinaField={tinaField(header, 'icon')}
                 parentColor={header.color}
                 data={{
                   name: header.icon.name,
                   color: header.icon.color,
                   style: header.icon.style,
                 }}
-              />{" "}
-              <span data-tina-field={tinaField(header, "name")}>
+              />{' '}
+              <span data-tina-field={tinaField(header, 'name')}>
                 {header.name}
               </span>
             </Link>
           </h4>
-          <NavItems navs={header.nav} />
+
+          {/* Hamburger Icon for Mobile */}
+          <button
+            className="md:hidden flex items-center justify-center p-2 rounded focus:outline-none"
+            onClick={toggleMobileMenu}
+          >
+            {/* Icon for Hamburger Menu */}
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+
+          {/* Regular Navigation Menu (hidden on mobile) */}
+          <div className="hidden md:flex">
+            <NavItems navs={header.nav} />
+          </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden flex flex-col items-start gap-2 py-4">
+            <NavItems navs={header.nav} />
+          </div>
+        )}
+
         <div
           className={cn(
             `absolute h-1 bg-gradient-to-r from-transparent`,
-            theme.darkMode === "primary"
+            theme.darkMode === 'primary'
               ? `via-white`
               : `via-black dark:via-white`,
-            "to-transparent bottom-0 left-4 right-4 -z-1 opacity-5"
+            'to-transparent bottom-0 left-4 right-4 -z-1 opacity-5'
           )}
         />
       </Container>
+
     </div>
   );
 }
