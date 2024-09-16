@@ -46,7 +46,7 @@ export default function Footer() {
     <footer className={cn(`bg-gradient-to-br`, footerColorCss)}>
       <Container className="relative" size="small">
         <div className="flex justify-between items-center gap-6 flex-wrap">
-          <img src={footer?.image} />
+          <img src={footer?.image || ""} />
           {footer?.text && (
             <div className="text-center w-full">
               {/* <div className="border-t border-yellow-500 my-4"></div> */}

@@ -1,6 +1,4 @@
 import type { Collection } from "tinacms";
-import { heroBlockSchema } from "../../components/blocks/hero";
-import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
 import { imageGalleryBlockSchema } from "../../components/blocks/image-gallery";
@@ -67,10 +65,8 @@ const Page: Collection = {
         visualSelector: true,
       },
       templates: [
-        heroBlockSchema,
         //@ts-ignore
         featureBlockSchema,
-        contentBlockSchema,
         testimonialBlockSchema,
         imageGalleryBlockSchema,
         videoBlockSchema,
