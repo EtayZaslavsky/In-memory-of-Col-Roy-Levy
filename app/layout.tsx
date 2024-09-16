@@ -48,7 +48,7 @@ export default async function RootLayout({
         return `font-sans ${fontSans.variable} `;
     }
   };
-  const fontVariable = selectFont(global.theme.font);
+  const fontVariable = selectFont(global?.theme?.font || "sans");
 
   return (
     <html lang="he" dir="rtl" suppressHydrationWarning>
@@ -59,7 +59,7 @@ export default async function RootLayout({
           attribute="class"
           defaultTheme="system"
           disableTransitionOnChange
-          forcedTheme={global.theme.darkMode}
+          forcedTheme={global?.theme?.darkMode ? "dark" : "light"}
         >
           {children}
         </ThemeProvider>

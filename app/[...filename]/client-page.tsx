@@ -24,7 +24,7 @@ export default function ClientPage(props: ClientPageProps) {
       <Head>
         <title>{data?.page?.title}</title>
       </Head>
-      <Cover image={data?.page?.hero} title='לזכרו של אל״מ רועי לוי' description={data?.page?.description} />
+      <Cover image={data?.page?.hero ?? ''} title='לזכרו של אל״מ רועי לוי' description={data?.page?.description ?? ''} />
       <Blocks {...data?.page} />
     </>
   );

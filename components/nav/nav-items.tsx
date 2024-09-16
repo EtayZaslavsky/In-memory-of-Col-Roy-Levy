@@ -42,7 +42,7 @@ export default function NavItems({ navs }: { navs: any }) {
         return (
           <li
             key={item.href}
-            className={`${currentPath === `/${item.href}` ? activeItemClasses[theme.color] : ""
+            className={`${currentPath === `/${item.href}` ? activeItemClasses[theme?.color || "blue"] : ""
               }`}
           >
             <Link
@@ -52,7 +52,7 @@ export default function NavItems({ navs }: { navs: any }) {
             >
               {item.label}
               {currentPath === `/${item.href}` && (
-                <NavActive backgroundColor={activeBackgroundClasses[theme.color]} />
+                <NavActive backgroundColor={activeBackgroundClasses[theme?.color || "blue"]} />
               )}
             </Link>
           </li>

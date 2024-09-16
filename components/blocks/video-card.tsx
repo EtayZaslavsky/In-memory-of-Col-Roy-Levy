@@ -21,7 +21,7 @@ export const videoBlockSchema: Template = {
     ui: {
         ...mediaCardBlockSchema.ui, // Inherit UI settings
         defaultItem: {
-            ...mediaCardBlockSchema.ui.defaultItem,
+            ...mediaCardBlockSchema?.ui?.defaultItem,
             mediaSrc: "https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s",
             title: "Sample Video Title",
             description: "<p>Sample Video Description</p>",
