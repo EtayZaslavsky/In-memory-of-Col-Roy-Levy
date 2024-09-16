@@ -39,7 +39,7 @@ export default function Footer() {
 
   const footerColorCss =
     theme?.darkMode === "primary"
-      ? footerColor.primary[theme.color]
+      ? footerColor.primary[theme.color as keyof typeof footerColor.primary]
       : footerColor.default;
 
   return (
