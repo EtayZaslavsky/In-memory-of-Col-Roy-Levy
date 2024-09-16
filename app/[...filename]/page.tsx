@@ -42,9 +42,17 @@ export async function generateMetadata({
 
 export async function generateStaticParams() {
   const pages = await client.queries.pageConnection();
-  const paths = pages.data?.pageConnection.edges.map((edge) => ({
-    filename: edge.node._sys.breadcrumbs,
-  }));
 
-  return paths || [];
+  // Safely handle potential null or undefined
+  const edges = pages?.data?.pageConnection?.edges || [];
+
+  // Filter out edges where edge or edge.node is null or undefined
+  const paths = edges
+    .filter((edge) => edge !== null && edge !== undefined && edge.node !== null && edge.node !== undefined) // Check if edge and edge.node exist
+    .map((edge) => ({
+      filename: edge!.node!._sys.breadcrumbs, // Use non-null assertion after the check
+    }));
+
+  return paths;
 }
+
