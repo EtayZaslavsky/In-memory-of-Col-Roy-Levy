@@ -11,7 +11,7 @@ const ProtectedPage = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const storedPassword = process.env.NEXT_PUBLIC_PAGE_PASSWORD;
+        const storedPassword = process.env.PAGE_PASSWORD;
 
         if (inputPassword === storedPassword) {
             setIsAuthorized(true);

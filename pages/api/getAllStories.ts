@@ -12,7 +12,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         .select('*')
 
     if (error) {
-        return res.status(500).json({ error: error.message });
+        return res.status(401).json({ error: error.message });
     }
 
     return res.status(200).json(data);
