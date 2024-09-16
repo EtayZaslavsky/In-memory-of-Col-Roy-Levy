@@ -84,7 +84,7 @@ export const Timeline = ({ data }: { data: PageBlocksTimeline }) => {
         <div className="flex flex-col items-center w-4/5 lg:w-full">
           {data.items &&
             data.items.map((block, i) => (
-              <Timeframe key={i} data={block} index={i} />
+              <Timeframe key={i} data={block as any} index={i} />
             ))}
         </div>
       </Container>

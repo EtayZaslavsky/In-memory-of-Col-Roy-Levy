@@ -24,7 +24,7 @@ export const ImageGallery: React.FC<{ data: PageBlocksImageGallery }> = ({ data 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {data.images?.map((image, index) => (
             <div key={index} className="relative">
-              {image.src && (
+              {image?.src && (
                 <img
                   src={image.src}
                   alt={image.alt ?? "Gallery Image"}
@@ -33,7 +33,7 @@ export const ImageGallery: React.FC<{ data: PageBlocksImageGallery }> = ({ data 
                   className="object-cover w-full h-full rounded-lg"
                 />
               )}
-              {image.caption && (
+              {image?.caption && (
                 <div className="absolute bottom-0 left-0 w-full bg-gray-800 bg-opacity-75 text-white p-2 text-center text-sm rounded-b-lg">
                   {image.caption}
                 </div>

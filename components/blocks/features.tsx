@@ -22,7 +22,7 @@ export const Feature = ({
       // className="flex-1 flex flex-col items-center max-w-xl mx-auto"
       className=""
       style={{ flexBasis: "8rem" }}
-    ><a href={data.link}>
+    ><a href={String(data.link)}>
         {data.icon && (
           <div className="w-full flex justify-center items-center">
             <img src={data.icon} className="w-16 h-16" />
@@ -49,14 +49,14 @@ export const Feature = ({
 
 export const Features = ({ data }: { data: PageBlocksFeatures }) => {
   return (
-    <Section color={data.color}>
+    <Section color={String(data.color)} >
       <Container
         className={`flex flex-wrap justify-around gap-x-10 gap-y-8 text-center`}
         size="large"
       >
         {data.items &&
           data.items.map(function (block, i) {
-            return <Feature featuresColor={data.color} key={i} data={block} />;
+            return <Feature featuresColor={String(data.color)} key={i} data={block as any} />;
           })}
       </Container>
     </Section>
