@@ -113,7 +113,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
             {/* Conditionally render hCaptcha in production */}
             {process.env.NODE_ENV === 'production' && (
               <HCaptcha
-                sitekey="YOUR_HCAPTCHA_SITE_KEY" // Replace with your actual site key
+                sitekey="944ce64a-41fd-4dfa-af3b-92eb9a65c4b7"
                 onVerify={handleCaptchaVerification}
               />
             )}
