@@ -46,7 +46,7 @@ export const Stories: React.FC = () => {
 
     return (
         <Section>
-            <Container className="flex flex-col items-center">
+            <Container className="flex relative flex-col items-center">
                 <div className="story-block flex flex-col items-center justify-center w-full">
                     {stories.map((story, index) => (
                         <motion.div
@@ -60,6 +60,9 @@ export const Stories: React.FC = () => {
                             <Story data={story} index={index} />
                         </motion.div>
                     ))}
+                </div>
+                <div className='fixed bg-black bottom-0 p-8 w-full text-center'>
+                    הכרת את רועי? <a className='underline' href={`/add-story`}>הוסף סיפור כאן</a>
                 </div>
             </Container>
         </Section>
@@ -101,7 +104,8 @@ const Story: React.FC<{ data: StoryType; index: number }> = ({ data, index }) =>
                     </motion.span>
                 ))}
             </motion.p>
-        </div>
+            <motion.hr></motion.hr>
+        </div >
     );
 };
 
