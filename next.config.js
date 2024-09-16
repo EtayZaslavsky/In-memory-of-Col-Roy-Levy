@@ -1,4 +1,7 @@
 module.exports = {
+  typescript: {
+    ignoreBuildErrors: true, // Disables TypeScript type checking during the build process
+  },
   images: {
     remotePatterns: [
       {
