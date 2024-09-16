@@ -13,7 +13,7 @@ blocks:
     linkText: לכתבה
     _template: video
   - mediaType: video
-    mediaSrc: 'https://www.youtube.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
     title: מבצע ״מגן צפוני״
     description: |
       כתבה ב-ynet, שנת 2019. הפקת וידאו: דובר צה״ל.

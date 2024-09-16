@@ -3,9 +3,13 @@ title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023.'
 hero: /uploads/public/uploads/home-cover.jpeg
 blocks:
+  - _template: stories
+  - title: שתף את הסיפור שלך על רועי
+    successMessage: תודה על ששיתפת את הסיפור שלך!
+    _template: storyForm
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
     title: סרטון ההנצחה!
     description: |
       ״לכבוד החברים הרבים שנותרו בשדות הקרב,
@@ -33,7 +37,7 @@ blocks:
     _template: features
   - mediaType: image
     imageSrc: /uploads/public/uploads/68a05566a532b00c13591778cc437e7b.png
-    mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: אל״מ רועי לוי
     description: "בן יהודית ושלמה, נולד בארה״ב וגדל בירושלים בשכונת הר נוף בבית שחינך לערכי הציונות והיהדות.\nרועי למד בישיבה תיכונית בית אל ובשיבה גבוהה עטרת כוהנים.\_ לאחר מכן התגייס לעורב גולני. עוד\nבצעירותו סומן לגדולות וכצפוי התקדם\_ לשלל תפקידים בחטיבת גולני. רועי היה למפקד הסיירת ומפקד\nגדוד הסיור. לאורך תפקידיו השתתף רועי במספר מערכות צה״ל.\_ נפצע לראשונה במבצע עופרת יצוקה,\nושוב, באופן אנוש בראשו, במהלך מבצע צוק איתן כמפקד גדוד הסיור של גולני. הרופאים העריכו שלא\nיוכל לחזור לשירות, אבל הוא התעקש לחזור. במקביל לשיקומו הפיזי רועי למד לתואר שני במשפטים וכנגד\nכל הסיכויים חזר לשירות, וקיבל את הפיקוד על היחידה המיוחדת אגוז.\n"
     articleLink: /about
@@ -42,7 +46,7 @@ blocks:
   - mediaSide: left
     mediaType: image
     imageSrc: /uploads/public/uploads/6c86b70bd4f17f2b21238dab5751cd1b.png
-    mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: יום השבעה באוקטובר
     description: "בבוקר ה-7.10 שהה רועי בחופשה עם משפחתו בביתו במושב שבי ציון בגבול הצפון. מייד עם קבלת הדיווח על חדירת המחבלים בדרום, יצא מביתו תוך שהוא מקפיץ את כל מפקדי וחיילי היחידה הרב מימדית, זאת מבלי שהוקפץ באופן פורמאלי. כבר בדרכו דרומה שוחח עימו רח\"ט מבצעים (תא״ל שלומי בינדר) אשר ביקש ממנו אישית שיעדכן בתמונת המצב העדכנית מהשטח. שיחה זו, במקביל לדיווחים שהחלו לזרום על הזוועה המתרחשת בעוטף, הבהירו לרועי את מימדי האירוע, עוד כשמרבית הכוחות לקו בהלם. רועי חלף בבסיס היחידה על מנת לקחת ציוד לחימה, ושם תדרך את מפקד צוות ההכשרות להתקדם לעבר רצועת עזה ולחתור ללחימה כמה שיותר מהר. הוא היה מהכוחות הראשונים שהצליחו להגיע לאזור הלחימה בניסיון להציל את האזרחים.\Lבדרכו לרצועה נעצר רועי בקיבוץ רעים הסמוך למיקום בו התרחשה מסיבת הנובה. הוא פרק מרכבו עם שני קשרים ומפקד מילואים נוסף ויחדיו החלו לנהל לחימה עיקשת עם המחבלים שהשתלטו על הקיבוץ. כבר בשלב מוקדם של הלחימה נפצע בידו מרסיסי רימון שהושלך לעברו, אך סירב לקבל טיפול רפואי על מנת שלא לפגוע ברוח הלוחמים ומתוך חשש כי חוסם העורקים ימנע ממנו להמשיך להילחם.\Lרועי ושותפיו הצליחו להרוג כעשרה מחבלים והצילו כ 40 לכודים מהמסיבה ומספר לא מבוטל של משפחות בני הקיבוץ שהתבצרו במקלטים.\Lבשעה 13:30 לערך, בסמוך לאחד מבתי הקיבוץ, נורה רועי בליבו מצרור מחבל ונהרג במקום.\n"
     articleLink: ''
@@ -50,7 +54,7 @@ blocks:
     _template: image
   - mediaType: image
     imageSrc: /uploads/public/uploads/ce9abcf55f0abf51b262db490a4057eb.png
-    mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: 'חברים מספרים:'
     description: >
       ״היה דבר אחד שנחקק אצלי בזכרון יותר מהכל, וליווה אותי לאורך כל השירות שלי
@@ -68,7 +72,7 @@ blocks:
   - mediaSide: left
     mediaType: image
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
-    mediaSrc: 'https://www.youtube.com/watch?v=hRF4y5AHo_s'
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: מפעלי הנצחה לזכרו
     description: >
       בחודש מאי 2024 נחנכה ״גבעת רועי״ - מצפה בהרי ירושלים, באזור דרך בורמה

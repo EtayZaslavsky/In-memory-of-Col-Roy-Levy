@@ -1,22 +1,27 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, ChangeEvent, FormEvent } from "react";
 import { tinaField } from "tinacms/dist/react";
 import { Section } from "../layout/section";
 import { Container } from "../layout/container";
-import { useMutation } from '@apollo/client';
+import HCaptcha from '@hcaptcha/react-hcaptcha'; // Import hCaptcha component
 
 // Define a type for dynamic form data
 type FormDataType = {
-  [key: string]: string; // Form fields are dynamically defined as strings
+  title: string;
+  content: string;
+  email?: string;
+  phone?: string;
+  hcaptchaToken?: string;
 };
 
-// Component to render dynamic form fields
-export const StoryForm = ({ data }) => {
-  const [formData, setFormData] = useState<FormDataType>({});
+// Component to render the form
+export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
+  const [formData, setFormData] = useState<FormDataType>({} as FormDataType);
   const [submitted, setSubmitted] = useState(false);
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
   // Handle input changes
-  const handleChange = (e) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -25,30 +30,47 @@ export const StoryForm = ({ data }) => {
   };
 
   // Handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Check if hCaptcha is required in production
+    if (process.env.NODE_ENV === 'production' && !captchaToken) {
+      alert("Please complete the captcha");
+      return;
+    }
+
     try {
       const response = await fetch("/api/submitStory", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, hcaptchaToken: captchaToken }),
       });
-      setSubmitted(true); // Indicate that submission was successful
+
+      if (response.ok) {
+        setSubmitted(true); // Indicate that submission was successful
+      } else {
+        console.error("Error submitting story:", await response.text());
+      }
     } catch (error) {
       console.error("Error submitting story:", error);
     }
   };
 
+  // Handle captcha verification success
+  const handleCaptchaVerification = (token: string) => {
+    setCaptchaToken(token);
+  };
+
   return (
     <Section>
-      <Container className="max-w-lg mx-auto p-4 bg-white rounded-lg shadow-md">
+      <Container className="max-w-lg mx-auto p-4 py-16 md:mb-8  bg-black-400 rounded-lg shadow-md">
         <h2
           className="text-2xl font-semibold mb-4"
           data-tina-field={tinaField(data, "title")}
         >
-          {data.title || "Share Your Story About Roy"}
+          {data.title || "שתף את הסיפור שלך על רועי"}
         </h2>
         {!submitted ? (
           <form onSubmit={handleSubmit}>
@@ -59,7 +81,7 @@ export const StoryForm = ({ data }) => {
               type="text"
               name="title"
               onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded"
+              className="w-full p-2 border border-gray-300 rounded text-black"
             />
             <label htmlFor="content" className="block text-sm font-medium mb-2">
               הסיפור
@@ -68,37 +90,61 @@ export const StoryForm = ({ data }) => {
               name="content"
               onChange={handleChange}
               rows={15}
-              className="w-full p-2 border border-gray-300 rounded"
+              className="w-full p-2 border border-gray-300 text-black rounded"
             />
-            {/* <button
+            <label htmlFor="author_email" className="block text-sm font-medium mb-2">
+              אימייל ליצירת קשר
+            </label>
+            <input
+              type="text"
+              name="author_email"
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded text-black"
+            />
+            <label htmlFor="author_phone" className="block text-sm font-medium mb-2">
+              טלפון ליצירת קשר
+            </label>
+            <input
+              type="text"
+              name="author_phone"
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded text-black"
+            />
+            {/* Conditionally render hCaptcha in production */}
+            {process.env.NODE_ENV === 'production' && (
+              <HCaptcha
+                sitekey="YOUR_HCAPTCHA_SITE_KEY" // Replace with your actual site key
+                onVerify={handleCaptchaVerification}
+              />
+            )}
+
+            <button
               type="submit"
               className="w-full p-2 bg-yellow-500 text-white font-semibold rounded"
             >
-              {loading ? 'שולח...' : "שלח"}
+              שלח
             </button>
-            {error && <p className="text-red-500">שגיאה: {error.message}</p>} */}
           </form>
         ) : (
           <p className="text-green-500">
-            {data.successMessage || "Thank you for sharing your story!"}
+            {data.successMessage || "תודה על ששיתפת את הסיפור שלך!"}
           </p>
         )}
-
       </Container>
-    </Section >
+    </Section>
   );
 };
 
-// TinaCMS Schema for Dynamic Form
+// TinaCMS schema for the Story Form block
 export const storyFormBlockSchema = {
   name: "storyForm",
-  label: "Story Form",
+  label: "טופס הוספת סיפור",
   ui: {
     previewSrc: "",
     defaultItem: {
-      title: "Share Your Story About Roy",
-      buttonText: "Submit",
-      successMessage: "Thank you for sharing your story!",
+      title: "שתף את הסיפור שלך על רועי",
+      buttonText: "שלח",
+      successMessage: "תודה על ששיתפת את הסיפור שלך!",
     },
   },
   fields: [
@@ -106,6 +152,11 @@ export const storyFormBlockSchema = {
       type: "string",
       label: "כותרת הטופס",
       name: "title",
+    },
+    {
+      type: "string",
+      label: "הודעת הצלחה",
+      name: "successMessage",
     },
   ],
 };

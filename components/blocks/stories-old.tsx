@@ -1,16 +1,9 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { tinaField } from "tinacms/dist/react";
 import { Section } from "../layout/section";
 import { Container } from "../layout/container";
 import { motion } from 'framer-motion';
-
-// Define the type for the Story data
-type StoryType = {
-    id: string;
-    title: string;
-    content: string;
-};
 
 const storyVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -19,7 +12,7 @@ const storyVariants = {
 
 const typingVariants = {
     hidden: { opacity: 0 },
-    visible: (i: number) => ({
+    visible: (i) => ({
         opacity: 1,
         transition: {
             delay: i * 0.05
@@ -27,28 +20,12 @@ const typingVariants = {
     })
 };
 
-export const Stories: React.FC = () => {
-    const [stories, setStories] = useState<StoryType[]>([]);
-
-    useEffect(() => {
-        const fetchStories = async () => {
-            try {
-                const response = await fetch('/api/getStories');
-                const data = await response.json();
-                setStories(data);
-            } catch (error) {
-                console.error('Error fetching stories:', error);
-            }
-        };
-
-        fetchStories();
-    }, []);
-
-    return (
-        <Section>
-            <Container className="flex flex-col items-center">
-                <div className="story-block flex flex-col items-center justify-center w-full">
-                    {stories.map((story, index) => (
+export const Stories = ({ data }) => (
+    <Section>
+        <Container className="flex flex-col items-center">
+            <div className="story-block flex flex-col items-center justify-center w-full">
+                {data.stories &&
+                    data.stories.map((story, index) => (
                         <motion.div
                             key={index}
                             className="h-screen w-full flex items-center justify-center p-4"
@@ -60,13 +37,12 @@ export const Stories: React.FC = () => {
                             <Story data={story} index={index} />
                         </motion.div>
                     ))}
-                </div>
-            </Container>
-        </Section>
-    );
-};
+            </div>
+        </Container>
+    </Section>
+);
 
-const Story: React.FC<{ data: StoryType; index: number }> = ({ data, index }) => {
+const Story = ({ data, index }) => {
     const [contentVisible, setContentVisible] = useState(false);
 
     return (
@@ -80,8 +56,9 @@ const Story: React.FC<{ data: StoryType; index: number }> = ({ data, index }) =>
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                onAnimationComplete={() => setContentVisible(true)}
+                onAnimationComplete={() => setContentVisible(true)} // Trigger content animation
             >
+
                 {data.title.split("").map((char, i) => (
                     <motion.span key={i} variants={typingVariants} custom={i}>
                         {char}
@@ -92,9 +69,10 @@ const Story: React.FC<{ data: StoryType; index: number }> = ({ data, index }) =>
                 data-tina-field={tinaField(data, "content")}
                 className="mt-4 text-base text-center"
                 initial="hidden"
-                animate={contentVisible ? "visible" : "hidden"}
+                animate={contentVisible ? "visible" : "hidden"} // Start animation only if contentVisible is true
                 variants={typingVariants}
             >
+
                 {data.content.split("").map((char, i) => (
                     <motion.span key={i} variants={typingVariants} custom={i}>
                         {char}
@@ -105,32 +83,33 @@ const Story: React.FC<{ data: StoryType; index: number }> = ({ data, index }) =>
     );
 };
 
+
 // TinaCMS schema for Stories block
 export const storiesBlockSchema = {
     name: "stories",
-    label: "בלוק סיפורים",
+    label: "Stories Block",
     fields: [
         {
             type: "object",
-            label: "סיפורים",
+            label: "Stories",
             name: "stories",
             list: true,
             ui: {
                 itemProps: (item) => {
                     return {
-                        label: item?.title || "סיפור חדש",
+                        label: item?.title || "New Story",
                     };
                 },
             },
             fields: [
                 {
                     name: "title",
-                    label: "כותרת",
+                    label: "Title",
                     type: "string",
                 },
                 {
                     name: "content",
-                    label: "תוכן",
+                    label: "Content",
                     type: "string",
                 },
             ],

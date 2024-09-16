@@ -115,10 +115,9 @@ export const mediaCardBlockSchema: Template = {
     name: "mediaCard",
     label: "Media Card",
     ui: {
-        previewSrc: "/blocks/media-card.png",
         defaultItem: {
             mediaSide: "right",
-            mediaSrc: "https://www.youtube.com/watch?v=hRF4y5AHo_s",
+            mediaSrc: "https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s",
             title: "Sample Card Title",
             description: "<p>This is a sample description for the media content.</p>",
             articleLink: "https://www.example.com/article",

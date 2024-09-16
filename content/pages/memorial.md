@@ -37,7 +37,7 @@ blocks:
     _template: imageGallery
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
     title: סרטון ההנצחה
     description: |
       היחידה הרב-מימדית
@@ -46,7 +46,7 @@ blocks:
     _template: video
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
     title: סרטון הנצחה
     description: |
       משפחה וחברים
