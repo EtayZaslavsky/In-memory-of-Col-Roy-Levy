@@ -3,10 +3,6 @@ title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023.'
 hero: /uploads/public/uploads/home-cover.jpeg
 blocks:
-  - _template: stories
-  - title: שתף את הסיפור שלך על רועי
-    successMessage: תודה על ששיתפת את הסיפור שלך!
-    _template: storyForm
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
