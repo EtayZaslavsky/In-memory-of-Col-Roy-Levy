@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Container } from "../layout/container";
 import { cn } from "../../lib/utils";
@@ -34,17 +34,36 @@ export default function Header() {
       : headerColor.default;
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  // Effect to detect scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if the scroll position is greater than 200px
+      if (window.scrollY > 800) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Clean up
+    };
+  }, []);
+
   return (
     <div
-      className={`relative overflow-hidden bg-gradient-to-b ${headerColorCss}`}
+      className={`bg-gradient-to-b ${headerColorCss} ${isSticky ? "fixed top-0 z-50 w-full bg-white shadow-lg" : ""
+        } transition-all duration-500 ease-out`}
     >
-      <Container size="custom" className="py-0 relative z-10 max-w-8xl">
-        <div className="flex items-center justify-between gap-6">
+      <Container size="custom" className="py-0 relative h-auto z-10 max-w-8xl">
+        <div className={`flex items-center justify-between gap-6 ${isSticky ? "h-14" : ""}`}>
           <h4 className="select-none text-lg font-bold tracking-tight my-4 transition duration-150 ease-out transform">
             <Link
               href="/"

@@ -4,6 +4,7 @@ import { tinaField } from "tinacms/dist/react";
 import { Section } from "../layout/section";
 import { Container } from "../layout/container";
 import { motion } from 'framer-motion';
+import { set } from 'date-fns';
 
 // Define the type for the Story data
 type StoryType = {
@@ -61,7 +62,7 @@ export const Stories: React.FC = () => {
                         </motion.div>
                     ))}
                 </div>
-                <div className='fixed bg-black bottom-0 p-8 w-full text-center'>
+                <div className='z-10 fixed bg-black bottom-0 p-8 w-full text-center'>
                     הכרת את רועי? <a className='underline' href={`/add-story`}>הוסף סיפור כאן</a>
                 </div>
             </Container>
