@@ -1,0 +1,33 @@
+- add to the story form, and to supabase, the fields: story year, relationship, your name, up to 3 pictures.
++ disable cover loading feature after loaded.
+
+
+- make add story form wider on desktop
++ add new vercel integration for supabase
+- change cover appeareance for mobile
+- update story form's appeareance: smaller field borders, larger labels, less distinguished background color and border color, change submit color hue, add margin to fields, make the captcha centered.
+- add about section to the story form
+- add "from the family" section, first in homepage. 
+- add nav item to add story form
++ remove about page from navigation
+- add general site seo
+- change media block link to open in target / blank and add bg-color option as chosen fields
+- update missing word in first story in friends stories
+- make characters animation in stories faster
+- make the stories scroll in sections
+- update the sticky navbar item selected indicator to height of navbar
+- add iframe skeleton, before iframe content loaded
+- add captions and alts to images in the album
+- choose cover images that connect to what the page has to say. make them about 1/3 of screen height, and better quality. consider showing the title below image.
+- remove bg-color of homepage title on cover.
+- add a 404 page
+# memorial
+- add location and waze features to memorial places
+- ask Yael whether to add burial place and tell the story about why he is burried there
+- add meaningful descriptions to videos sections
+
+# from the media
+- add content from the articles as the description of these sections
+- add written articles
+- consider adding titles, one for articles, one for videos
+
