@@ -4,6 +4,7 @@ import { tinaField } from "tinacms/dist/react";
 import { Section } from "../layout/section";
 import { Container } from "../layout/container";
 import HCaptcha from '@hcaptcha/react-hcaptcha'; // Import hCaptcha component
+import Link from "next/link";
 
 // Define a type for dynamic form data
 type FormDataType = {
@@ -72,10 +73,13 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
         >
           {data.title || "שתף את הסיפור שלך על רועי"}
         </h2>
+        <p className="text-l mb-8">
+          לסיפורים נוספים ששותפו על רועי <Link className="underline" href="/friends-stories">עבור לדף חברים מספרים</Link>
+        </p>
         {!submitted ? (
           <form onSubmit={handleSubmit}>
             <label htmlFor="title" className="block text-sm font-medium mb-2">
-              כותרת לסיפור
+              כותרת לסיפור*
             </label>
             <input
               type="text"
@@ -84,7 +88,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
               className="w-full p-2 border border-gray-300 rounded text-black"
             />
             <label htmlFor="content" className="block text-sm font-medium mb-2">
-              הסיפור
+              הסיפור*
             </label>
             <textarea
               name="content"
@@ -127,7 +131,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
           </form>
         ) : (
           <p className="text-green-500">
-            {data.successMessage || "תודה על ששיתפת את הסיפור שלך!"}
+            {data.successMessage || "תודה על ששיתפת את הסיפור שלך! נעבור עליו בהקדם ונוסיף אותו לאתר."}
           </p>
         )}
       </Container>
