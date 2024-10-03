@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 import fetch from 'node-fetch'; // Import fetch for server-side requests
 
 const supabaseUrl = process.env.SUPABASE_URL!;
-const supabaseKey = process.env.SUPABASE_SERVICE_KEY!;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const HCAPTCHA_SECRET_KEY = process.env.HCAPTCHA_SECRET_KEY!; // Add your secret key to environment variables
