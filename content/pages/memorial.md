@@ -55,10 +55,16 @@ blocks:
     _template: video
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube-nocookie.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
-    title: סרטון הנצחה
-    description: |
-      משפחה וחברים
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/vWsnaOUD17U?si=DxNs5YVyBzQzWyhl'
+    title: סרטון חניכת גבעת רועי
+    description: >
+      בטקס נכחו בין היתר השר בני גנץ, רא"ל במיל' אביבי כוכבי, אלופים בצה"ל ויו"ר
+      ההסתדרות ארנון בר דוד. "מורשתו של רועי וחבריו שנפלו היא שנמשיך בדרך הלחימה
+      והגבורה שלהם ובמיוחד ביכולת לחיות ביחד, עם אחד", אמר גנץ. "גבעת רועי והנוף
+      הנשקף ממנה תשקף את העשייה שנדרש אליה".
+
+
+      זהו סרטון המנציח את אירוע חניכת הגבעה המרגש.
     articleLink: ''
     linkText: ''
     _template: video
