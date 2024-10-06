@@ -21,8 +21,14 @@ blocks:
   - mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
     title: מבצע ״מגן צפוני״
-    description: |
-      כתבה ב-ynet, שנת 2019. הפקת וידאו: דובר צה״ל.
+    description: >
+      צה"ל מסכם את מבצע "מגן צפוני" באיטום "מנהרת הדגל" של ארגון הטרור הלבנוני,
+      שנחפרה לעבר יישובים בגליל המערבי ותחכומה הפתיע גם את הקצינים המנוסים
+      ביותר. "רכיב מרכזי בתוכנית ההתקפה לשעת חירום של חיזבאללה\
+
+      כתבה ב-ynet, שנת 2019
+    articleLink: 'https://www.ynet.co.il/articles/0,7340,L-5517947,00.html'
+    linkText: לכתבה
     _template: video
   - mediaType: video
     mediaSrc: >-
