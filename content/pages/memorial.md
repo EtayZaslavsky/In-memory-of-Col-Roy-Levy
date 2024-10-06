@@ -80,5 +80,10 @@ blocks:
     articleLink: 'https://www.roylevy.co.il/add-story'
     linkText: לכתיבת סיפור
     _template: image
+  - title: במה אני יכול לעזור?
+    content: >
+      כל סיפור הוא עולם ומלואו. אם הכרתם את רועי נשמח לשמוע סיפורים על המפגש
+      שלכם איתו.
+    _template: richTextWithTitle
 ---
 
