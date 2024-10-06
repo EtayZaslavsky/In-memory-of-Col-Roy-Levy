@@ -73,7 +73,7 @@ blocks:
     mediaType: image
     imageSrc: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: מספרים על רועי
+    title: במה אני יכול לעזור?
     description: >
       כל סיפור הוא עולם ומלואו. אם הכרתם את רועי נשמח לשמוע סיפורים על המפגש
       שלכם איתו.
