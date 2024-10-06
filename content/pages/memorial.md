@@ -76,7 +76,7 @@ blocks:
     title: במה אני יכול לעזור?
     description: >
       כל סיפור הוא עולם ומלואו. אם הכרתם את רועי נשמח לשמוע סיפורים על המפגש
-      שלכם איתו. 
+      שלכם איתו. לעוד מחשבות מוזמנים לפנות לפנות אל איתי zaslavsky\@pm.me.
     articleLink: 'https://www.roylevy.co.il/add-story'
     linkText: לכתיבת סיפור
     _template: image
