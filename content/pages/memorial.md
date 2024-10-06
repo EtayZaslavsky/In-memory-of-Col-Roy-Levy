@@ -48,8 +48,9 @@ blocks:
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
     title: סרטון ההנצחה
-    description: |
-      היחידה הרב-מימדית
+    description: >
+      הסרטון שוזר יחד אירועים מחייו של רועי, מהילדים והמשפחה, מהצבא, ומהאדם
+      הפשוט והמיוחד שהיה.
     articleLink: ''
     linkText: ''
     _template: video
