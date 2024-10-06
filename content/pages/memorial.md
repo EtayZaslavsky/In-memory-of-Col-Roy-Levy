@@ -69,21 +69,5 @@ blocks:
     articleLink: ''
     linkText: ''
     _template: video
-  - mediaSide: right
-    mediaType: image
-    imageSrc: ''
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: במה אני יכול לעזור?
-    description: >
-      כל סיפור הוא עולם ומלואו. אם הכרתם את רועי נשמח לשמוע סיפורים על המפגש
-      שלכם איתו.
-    articleLink: 'https://www.roylevy.co.il/add-story'
-    linkText: לכתיבת סיפור
-    _template: image
-  - title: במה אני יכול לעזור?
-    content: >
-      כל סיפור הוא עולם ומלואו. אם הכרתם את רועי נשמח לשמוע סיפורים על המפגש
-      שלכם איתו.
-    _template: richTextWithTitle
 ---
 
