@@ -35,7 +35,7 @@ blocks:
       https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fosnat.nameri%2Fvideos%2F839543856056882%2F&show_text=false&width=560&t=0
     title: סרטון הסברה של צה״ל
     description: |
-      דובר צה״ל.
+      האמת על צה''ל: הדילמה האולטימטיבית - מה אתה הייתה עושה?
     _template: video
 ---
 
