@@ -8,11 +8,20 @@ blocks:
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: ''
     title: גבעת רועי בהרי ירושלים
-    description: |
-      בחודש מאי 2024 נחנכה ״גבעת רועי״ - מצפה בהרי ירושלים,
+    description: >
+      [בחודש מאי 2024 נחנכה ״גבעת רועי״ - מצפה בהרי ירושלים,
+
       באזור דרך בורמה ומצפה הראל. מקום בו נוכל כולנו להכיר,
+
       לשמוע, להתייחד, להעלות זכרונות מגיבור ישראל. וגם סתם
-      לשבת על כוס קפה. כולם מוזמנים להגיע.
+
+      לשבת על כוס קפה. כולם מוזמנים
+      להגיע.](https://ul.waze.com/ul?preview_venue_id=22937918.229182573.2053508\&navigate=yes
+      "מיקום בוויז")
+
+
+      [https://ul.waze.com/ul?preview\_venue\_id=22937918.229182573.2053508\&navigate=yes](https://ul.waze.com/ul?preview_venue_id=22937918.229182573.2053508\&navigate=yes
+      "מיקום בוויז")
     articleLink: 'https://www.ynet.co.il/news/article/hje4rtee0'
     linkText: לכתבה ב y-net
     _template: image
