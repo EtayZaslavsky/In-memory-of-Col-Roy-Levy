@@ -54,8 +54,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                     )}
 
                     {mediaType === "video" && (
-                        <div className="w-full md:w-auto">
-
+                        <div className="w-full md:w-1/2">
                             {title && (
                                 <h2 className="text-2xl font-bold mb-4" data-tina-field={tinaField({ title }, "title")}>
                                     {title}
@@ -80,7 +79,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                     )}
 
                     {mediaType === "image" && (
-                        <div className="w-full md:w-auto">
+                        <div className="w-full md:w-1/2">
 
                             {title && (
                                 <h2 className="text-2xl font-bold mb-4" data-tina-field={tinaField({ title }, "title")}>
