@@ -6,6 +6,16 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: >-
+      https://www.mako.co.il/player-embed/?vid=c401f1416e742710VgnVCM100000700a10acRCRD&cid=33930689e2c21710VgnVCM200000650a10acRCRD&galleryCid=af797547d7742710VgnVCM100000700a10acRCRD
+    title: על המלחמה הבאה בלבנון
+    description: ''
+    articleLink: >-
+      https://www.mako.co.il/news-military/2020_q2/Article-af797547d774271027.htm
+    linkText: לקריאת הכתבה
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
       https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F289967371373036%2Fvideos%2F587886274914476%2F&show_text=false&width=560&t=81
     title: 'רועי מספר על צפריר, חברו וסגנו שנהרג בצוק איתן בעת הלחימה'
     description: ''
