@@ -4,6 +4,15 @@ description: מפעלי ואירועי הנצחה
 hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=ZBApFvuXxY4&t=55s'
+    title: עליו נאמר "קשה באימונים קל בקרב"
+    description: |
+      אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
     mediaType: image
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: ''
