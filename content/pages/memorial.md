@@ -16,7 +16,7 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.kan.org.il/content/kan-news/newstv/p-11894/s1/748488/'
-    title: כתבת כאן 11 על ה7 באוקטובר של היחידה הרב מימדית
+    title: השבעה באוקטובר של היחידה הרב מימדית
     description: |
       מורשת הקרב של יחידת רפאים, יחידת העילִית 
       הרב-ממדית, נכתבת ממש בחודשים אלה. אלוף משנה רועי לוי, מפקד היחידה, נפצע 
