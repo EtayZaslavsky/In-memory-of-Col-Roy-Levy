@@ -32,7 +32,8 @@ blocks:
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/gxOuAeqXG88?si=_H4ufb8YnXHC8Roz'
     title: סרטון ההנצחה של היחידה הרב מימדית
-    description: ''
+    description: |
+      בראיונות עם פקודיו וחבריו לקרב מהיחידה. על הרוח שהביא ועל האיש שהיה עבורם.
     articleLink: ''
     linkText: ''
     _template: video
