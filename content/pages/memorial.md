@@ -5,6 +5,14 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/gxOuAeqXG88?si=_H4ufb8YnXHC8Roz'
+    title: סרטון ההנצחה של היחידה הרב מימדית
+    description: ''
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: >-
       https://www.youtube-nocookie.com/embed/wUHT1jLUNgo?si=f5G_g1bDVM6QQfXQ&amp;start=38
     title: ' "חוליות חדרו, אנשים נלחמים על הבית. נתראה"'
