@@ -5,6 +5,15 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
+    mediaSrc: >-
+      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F289967371373036%2Fvideos%2F587886274914476%2F&show_text=false&width=560&t=81
+    title: 'רועי מספר על צפריר, סגנו שנהרג בצוק איתן'
+    description: ''
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/2m3ieZfwFKc?si=LWyHQfkjQPlhFNnB'
     title: 'מפגש בין מדליקי המשואה: אלוף במיל'' ישעיהו (שייקה) גביש ורועי'
     description: ''
