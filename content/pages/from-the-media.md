@@ -4,11 +4,12 @@ description: קטעים מהתקשורת
 hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: Sample Video Title
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/2m3ieZfwFKc?si=LWyHQfkjQPlhFNnB'
+    title: 'מפגש בין מדליקי המשואה: אלוף במיל'' ישעיהו (שייקה) גביש ורועי'
     description: ''
-    articleLink: 'https://www.example.com/video-article'
-    linkText: Watch Video
+    articleLink: ''
+    linkText: ''
     _template: video
   - mediaType: video
     mediaSrc: >-
