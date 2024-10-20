@@ -5,6 +5,21 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/public/uploads/img1134426.webp
+    mediaSrc: ''
+    title: '"הוא היה מנהיג, החיילים העריצו אותו"'
+    description: >
+      שריה לוטן, חברו של אל"מ רועי לוי שנהרג במתקפת הטרור של חמאס סיפר על דמותו
+      המיוחדת.\
+
+      מתוך ערוץ 7.
+
+      ------------
+    articleLink: 'https://www.inn.co.il/news/616007'
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/public/uploads/WhatsApp Image 2024-09-30 at 08.17.38.jpeg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: 'כשבננו נהרג, מפקדו רועי לוי לקח אחריות'
