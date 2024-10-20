@@ -4,6 +4,22 @@ description: קטעים מהתקשורת
 hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/public/uploads/tap.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: הפצוע האנוש מצוק איתן מפקד על אגוז
+    description: |
+      הרופאים
+       אמרו לו שסיכוייו לשוב לתפקד כמעט אפסיים, שני אלופים ורמטכ"ל נאלצו לסרב 
+      לאפשר לו לשוב לשרת - אבל סא"ל ר' ראה רק מטרה אחת בעיניים: לחזור לקרב. 
+      בראיון ל-ynet מספר הקצין שנגד כל הסיכויים מונה לפקד על היחידה המובחרת על
+       ליל הפציעה, המשרד שהקים בבית החולים, המטבע שקיבל מרמטכ"ל ארה"ב ורוח 
+      הלחימה שבוערת בו: "מפקד צריך לחוש בלשון שלו את טעם אבק השריפה"
+      --------------------------------------------------------------
+    articleLink: 'https://www.ynet.co.il/articles/0,7340,L-4945562,00.html'
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/2m3ieZfwFKc?si=LWyHQfkjQPlhFNnB'
     title: 'מפגש בין מדליקי המשואה: אלוף במיל'' ישעיהו (שייקה) גביש ורועי'
