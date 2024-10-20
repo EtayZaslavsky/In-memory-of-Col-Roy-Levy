@@ -6,6 +6,20 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: >-
+      https://www.youtube-nocookie.com/embed/wUHT1jLUNgo?si=f5G_g1bDVM6QQfXQ&amp;start=38
+    title: ' "חוליות חדרו, אנשים נלחמים על הבית. נתראה"'
+    description: >
+      טכנולוגיות לגילוי אויב, פצמ"רים מדויקים ולהקות רחפנים שקטות: היחידה
+      הרב-ממדית איבדה ב-7/10 את מפקדה אל"מ רועי לוי שנפצע אנוש בצוק איתן, ונפל
+      בקרב ברעים. מאז המשיכה להילחם וקצרה הישגים: "רועי אמר לנו - תעזבו את
+      הגאדג'טים, אתם קודם כל לוחמים". תיעוד לוחמי היחידה החשאית וההקלטה האחרונה
+      של המפקד שנהרג: "חוליות חדרו, אנשים נלחמים על הבית. נתראה"
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
       https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKANREALTIME%2Fvideos%2F1046908470070002%2F&show_text=false&width=560
     title: גבורתם של המח"טים
     description: |
