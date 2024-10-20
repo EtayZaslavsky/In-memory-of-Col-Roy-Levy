@@ -5,7 +5,8 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=ZBApFvuXxY4&t=55s'
+    mediaSrc: >-
+      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&t=55
     title: עליו נאמר "קשה באימונים קל בקרב"
     description: |
       אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
