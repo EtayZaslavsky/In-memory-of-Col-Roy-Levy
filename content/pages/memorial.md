@@ -6,7 +6,7 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: >-
-      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&t=55
+      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&amp;start=55
     title: עליו נאמר "קשה באימונים קל בקרב"
     description: |
       אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
