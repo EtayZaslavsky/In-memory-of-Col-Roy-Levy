@@ -5,6 +5,17 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/public/uploads/img958813.webp
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: '"יודעים להעריך את האויב, אבל גם להכריע אותו"'
+    description: >
+      ## מח"ט 300 שנפצע באורח קשה ב'צוק איתן' וחזר לשירות מלא מסכם 20 שנים מאז
+      הנסיגה מדרום לבנון וקובע "תחושת הביטחון גדלה".
+    articleLink: 'https://www.example.com/video-article'
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/public/uploads/tap.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: הפצוע האנוש מצוק איתן מפקד על אגוז
