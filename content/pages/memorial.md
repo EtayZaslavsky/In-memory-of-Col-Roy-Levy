@@ -5,6 +5,16 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
+    title: סרטון ההנצחה
+    description: >
+      הסרטון שוזר יחד אירועים מחייו של רועי, מהילדים והמשפחה, מהצבא, ומהאדם
+      הפשוט והמיוחד שהיה.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: 'https://www.kan.org.il/content/kan-news/newstv/p-11894/s1/748488/'
     title: כתבת כאן 11 על ה7 באוקטובר של היחידה הרב מימדית
     description: |
@@ -101,16 +111,6 @@ blocks:
         caption: ''
       - src: /uploads/public/uploads/0638fbaed7e04b806141e98091a4845f.png
     _template: imageGallery
-  - mediaSide: right
-    mediaType: video
-    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
-    title: סרטון ההנצחה
-    description: >
-      הסרטון שוזר יחד אירועים מחייו של רועי, מהילדים והמשפחה, מהצבא, ומהאדם
-      הפשוט והמיוחד שהיה.
-    articleLink: ''
-    linkText: ''
-    _template: video
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/vWsnaOUD17U?si=DxNs5YVyBzQzWyhl'
