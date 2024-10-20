@@ -3,14 +3,21 @@ title: מהתקשורת
 description: קטעים מהתקשורת
 hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
+  - mediaSide: right
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: Sample Video Title
+    description: ''
+    articleLink: 'https://www.example.com/video-article'
+    linkText: Watch Video
+    _template: video
   - mediaType: video
     mediaSrc: >-
       https://www.mako.co.il/player-embed/?vid=29c00169c4fd2610VgnVCM100000290c10acRCRD&cid=512beeb309282610VgnVCM100000290c10acRCRD&galleryCid=e0e00169c4fd2610VgnVCM100000290c10acRCRD
-    title: מדליק המשואה שנפצע וחזר ללוחמה
+    title: '"המלחמה לחזור הייתה קשה מאוד"‎'
     description: |
-      אתמול בטקס - בין כל הרקדנים, הפירוטכניקה והפוליטיקאים, היה גם סגן 
-      אלוף רועי לוי שהשיא משואה יחד עם האלוף במילואים שייקה גביש, בשם לוחמי 
-      צהל. גולנצ'יק אמיתי - שנפצע קשה מאוד, אבל נגד כל הסיכויים, חזר לשירות 
+      אתמול בטקס - בין כל הרקדנים, הפירוטכניקה והפוליטיקאים, היה גם סגן
+      אלוף רועי לוי שהשיא משואה יחד עם האלוף במילואים שייקה גביש, בשם לוחמי
+      צהל. גולנצ'יק אמיתי - שנפצע קשה מאוד, אבל נגד כל הסיכויים, חזר לשירות
       קרבי. והיום הוא מפקד יחידת אגוז...
 
       כתבה ב-N12, שנת 2018.
