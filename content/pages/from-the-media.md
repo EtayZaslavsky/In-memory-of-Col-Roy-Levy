@@ -5,27 +5,17 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
-    mediaSrc: >-
-      https://www.mako.co.il/player-embed/?vid=c401f1416e742710VgnVCM100000700a10acRCRD&cid=33930689e2c21710VgnVCM200000650a10acRCRD&galleryCid=af797547d7742710VgnVCM100000700a10acRCRD
-    title: על המלחמה הבאה בלבנון
-    description: ''
-    articleLink: >-
-      https://www.mako.co.il/news-military/2020_q2/Article-af797547d774271027.htm
-    linkText: לקריאת הכתבה
-    _template: video
-  - mediaSide: right
-    mediaType: video
-    mediaSrc: >-
-      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F289967371373036%2Fvideos%2F587886274914476%2F&show_text=false&width=560&t=81
-    title: 'רועי מספר על צפריר, חברו וסגנו שנהרג בצוק איתן בעת הלחימה'
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/2m3ieZfwFKc?si=LWyHQfkjQPlhFNnB'
+    title: 'מפגש בין מדליקי המשואה: אלוף במיל'' ישעיהו (שייקה) גביש ורועי'
     description: ''
     articleLink: ''
     linkText: ''
     _template: video
   - mediaSide: right
     mediaType: video
-    mediaSrc: 'https://www.youtube-nocookie.com/embed/2m3ieZfwFKc?si=LWyHQfkjQPlhFNnB'
-    title: 'מפגש בין מדליקי המשואה: אלוף במיל'' ישעיהו (שייקה) גביש ורועי'
+    mediaSrc: >-
+      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F289967371373036%2Fvideos%2F587886274914476%2F&show_text=false&width=560&t=81
+    title: 'רועי מספר על צפריר, חברו וסגנו שנהרג בצוק איתן בעת הלחימה'
     description: ''
     articleLink: ''
     linkText: ''
@@ -46,6 +36,23 @@ blocks:
     linkText: לכתבה
     _template: video
   - mediaType: video
+    mediaSrc: >-
+      https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fosnat.nameri%2Fvideos%2F839543856056882%2F&show_text=false&width=560&t=0
+    title: סרטון הסברה של צה״ל
+    description: |
+      האמת על צה''ל: הדילמה האולטימטיבית - מה אתה הייתה עושה?
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
+      https://www.mako.co.il/player-embed/?vid=c401f1416e742710VgnVCM100000700a10acRCRD&cid=33930689e2c21710VgnVCM200000650a10acRCRD&galleryCid=af797547d7742710VgnVCM100000700a10acRCRD
+    title: על המלחמה הבאה בלבנון
+    description: ''
+    articleLink: >-
+      https://www.mako.co.il/news-military/2020_q2/Article-af797547d774271027.htm
+    linkText: לקריאת הכתבה
+    _template: video
+  - mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/msglXGfnBKk?si=78-6fA2B_AeIjwvS'
     title: מבצע ״מגן צפוני״
     description: >
@@ -56,13 +63,6 @@ blocks:
       כתבה ב-ynet, שנת 2019
     articleLink: 'https://www.ynet.co.il/articles/0,7340,L-5517947,00.html'
     linkText: לכתבה
-    _template: video
-  - mediaType: video
-    mediaSrc: >-
-      https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fosnat.nameri%2Fvideos%2F839543856056882%2F&show_text=false&width=560&t=0
-    title: סרטון הסברה של צה״ל
-    description: |
-      האמת על צה''ל: הדילמה האולטימטיבית - מה אתה הייתה עושה?
     _template: video
 ---
 
