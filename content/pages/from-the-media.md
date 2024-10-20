@@ -7,7 +7,7 @@ blocks:
     mediaType: video
     mediaSrc: >-
       https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F289967371373036%2Fvideos%2F587886274914476%2F&show_text=false&width=560&t=81
-    title: 'רועי מספר על צפריר, סגנו שנהרג בצוק איתן'
+    title: 'רועי מספר על צפריר, חברו וסגנו שנהרג בצוק איתן בעת הלחימה'
     description: ''
     articleLink: ''
     linkText: ''
