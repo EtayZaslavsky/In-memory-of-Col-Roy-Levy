@@ -30,6 +30,26 @@ blocks:
     _template: video
   - mediaSide: right
     mediaType: video
+    mediaSrc: >-
+      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKANREALTIME%2Fvideos%2F1046908470070002%2F&show_text=false&width=560
+    title: גבורתם של המח"טים
+    description: |
+      תוכנית זמן אמת עם יעל אישתו של רועי, עליו ועל נפילתו בקרב.
+    articleLink: 'https://www.facebook.com/watch/?v=1046908470070002'
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
+      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&amp;start=55
+    title: עליו נאמר "קשה באימונים קל בקרב"
+    description: |
+      אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/gxOuAeqXG88?si=_H4ufb8YnXHC8Roz'
     title: סרטון ההנצחה של היחידה הרב מימדית
     description: |
@@ -48,26 +68,6 @@ blocks:
       בקרב ברעים. מאז המשיכה להילחם וקצרה הישגים: "רועי אמר לנו - תעזבו את
       הגאדג'טים, אתם קודם כל לוחמים". תיעוד לוחמי היחידה החשאית וההקלטה האחרונה
       של המפקד שנהרג: "חוליות חדרו, אנשים נלחמים על הבית. נתראה"
-    articleLink: ''
-    linkText: ''
-    _template: video
-  - mediaSide: right
-    mediaType: video
-    mediaSrc: >-
-      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKANREALTIME%2Fvideos%2F1046908470070002%2F&show_text=false&width=560
-    title: גבורתם של המח"טים
-    description: |
-      תוכנית זמן אמת עם יעל אישתו של רועי, עליו ועל נפילתו בקרב.
-    articleLink: 'https://www.facebook.com/watch/?v=1046908470070002'
-    linkText: ''
-    _template: video
-  - mediaSide: right
-    mediaType: video
-    mediaSrc: >-
-      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&amp;start=55
-    title: עליו נאמר "קשה באימונים קל בקרב"
-    description: |
-      אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
     articleLink: ''
     linkText: ''
     _template: video
