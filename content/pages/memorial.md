@@ -6,7 +6,7 @@ blocks:
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
-    title: סרטון ההנצחה
+    title: סרטון ההנצחה של המשפחה
     description: >
       הסרטון שוזר יחד אירועים מחייו של רועי, מהילדים והמשפחה, מהצבא, ומהאדם
       הפשוט והמיוחד שהיה.
