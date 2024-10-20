@@ -5,6 +5,21 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: video
+    mediaSrc: 'https://www.kan.org.il/content/kan-news/newstv/p-11894/s1/748488/'
+    title: כתבת כאן 11 על ה7 באוקטובר של היחידה הרב מימדית
+    description: |
+      מורשת הקרב של יחידת רפאים, יחידת העילִית 
+      הרב-ממדית, נכתבת ממש בחודשים אלה. אלוף משנה רועי לוי, מפקד היחידה, נפצע 
+      אנוש בצוק איתן ונאבק לשוב להילחם. סרן יותם בן בסט היה מפקד פלגת ההכשרות 
+      ביחידה, רחוק רק כמה ימים מהשחרור מצה"ל. בשבעה באוקטובר הם יצאו יחד 
+      להילחם בעשרות המחבלים שפלשו לקיבוץ רעים, הצליחו לחלץ מהממ"דים עשרות 
+      צעירים שנמלטו ממסיבת נובה - ונפלו בקרבות
+                                  
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/gxOuAeqXG88?si=_H4ufb8YnXHC8Roz'
     title: סרטון ההנצחה של היחידה הרב מימדית
     description: ''
