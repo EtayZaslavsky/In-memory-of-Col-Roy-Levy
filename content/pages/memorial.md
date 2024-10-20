@@ -4,6 +4,17 @@ description: מפעלי ואירועי הנצחה
 hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/public/uploads/WhatsApp Image 2024-09-30 at 08.17.38.jpeg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: 'כשבננו נהרג, מפקדו רועי לוי לקח אחריות'
+    description: |
+      כתבתו של אבי יעקבי מעיתון הארץ.
+    articleLink: >-
+      https://www.haaretz.co.il/opinions/2023-10-09/ty-article-opinion/.premium/0000018b-13c1-dcc2-a99b-17d17f090000
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
     title: סרטון ההנצחה של המשפחה
@@ -18,13 +29,12 @@ blocks:
     mediaSrc: 'https://www.kan.org.il/content/kan-news/newstv/p-11894/s1/748488/'
     title: השבעה באוקטובר של היחידה הרב מימדית
     description: |
-      מורשת הקרב של יחידת רפאים, יחידת העילִית 
-      הרב-ממדית, נכתבת ממש בחודשים אלה. אלוף משנה רועי לוי, מפקד היחידה, נפצע 
-      אנוש בצוק איתן ונאבק לשוב להילחם. סרן יותם בן בסט היה מפקד פלגת ההכשרות 
-      ביחידה, רחוק רק כמה ימים מהשחרור מצה"ל. בשבעה באוקטובר הם יצאו יחד 
-      להילחם בעשרות המחבלים שפלשו לקיבוץ רעים, הצליחו לחלץ מהממ"דים עשרות 
+      מורשת הקרב של יחידת רפאים, יחידת העילִית
+      הרב-ממדית, נכתבת ממש בחודשים אלה. אלוף משנה רועי לוי, מפקד היחידה, נפצע
+      אנוש בצוק איתן ונאבק לשוב להילחם. סרן יותם בן בסט היה מפקד פלגת ההכשרות
+      ביחידה, רחוק רק כמה ימים מהשחרור מצה"ל. בשבעה באוקטובר הם יצאו יחד
+      להילחם בעשרות המחבלים שפלשו לקיבוץ רעים, הצליחו לחלץ מהממ"דים עשרות
       צעירים שנמלטו ממסיבת נובה - ונפלו בקרבות
-                                  
     articleLink: ''
     linkText: ''
     _template: video
