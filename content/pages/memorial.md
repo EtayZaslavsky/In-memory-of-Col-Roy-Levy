@@ -5,6 +5,26 @@ hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: >-
+      /uploads/public/uploads/386092979_855425129284024_3278313707259996369_n.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: פוסט של עידן רייכל לזכר רועי
+    description: |
+      הוא היה אהוב ליבי\
+      והוא עשה אותי גאה שבחר בי להיות חבר שלו\
+      ואיש סודו\
+      \
+      ידעתי שימות בקרב\
+      תמיד ידעתי שימות בקרב\
+      שהוא רוצה לחיות\
+      אבל שימות כלוחם\
+      וידעתי מהימים בהם נרקמה החברות שלנו שתהיה לו הלוויה צבאית\
+      ...
+    articleLink: 'https://www.facebook.com/IdanRaichel/posts/855425312617339?ref=embed_post'
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/public/uploads/roylevi_autoOrient_w.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: 'אדם מיוחד במינו, חבר קרוב ואח שלא יסולא בפז'
