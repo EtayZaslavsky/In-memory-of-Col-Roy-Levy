@@ -1,5 +1,4 @@
 ---
-
 title: תמונות
 description: מהאלבום המשפחתי
 hero: /uploads/public/uploads/gallery-cover.jpeg
