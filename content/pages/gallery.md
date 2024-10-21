@@ -19,7 +19,7 @@ blocks:
       - src: /uploads/public/uploads/IMG-20231010-WA0095.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0098.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0125.jpg
-      - src: /uploads/public/uploads/IMG-20231010-WA0131.jpg
+      - src: /uploads/public/uploads/IMG-20231010-WA01312.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0145.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0156.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0236.jpg
@@ -31,7 +31,7 @@ blocks:
       - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-03.jpg
       - src: /uploads/public/uploads/PHOTO-2024-01-08-23-33-29.jpg
       - src: /uploads/public/uploads/PHOTO-2024-01-13-22-53-07.jpg
-      - src: /uploads/public/uploads/PHOTO-2024-03-15-09-15-19(2).jpg
+      - src: /uploads/public/uploads/PHOTO-2024-03-15-09-15-19(2)1.jpg
       - src: /uploads/public/uploads/PHOTO-2024-03-30-21-31-21.jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08(1).jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08.jpg
