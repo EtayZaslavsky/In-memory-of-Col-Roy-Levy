@@ -26,13 +26,13 @@ blocks:
       - src: /uploads/public/uploads/IMG-20231010-WA0238.jpg
       - src: /uploads/public/uploads/IMG_3157 (1).jpg
       - src: /uploads/public/uploads/IMG_5958 (1).jpg
-      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-10-29.jpg
-      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-03(1).jpg
-      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-03.jpg
-      - src: /uploads/public/uploads/PHOTO-2024-01-08-23-33-29.jpg
+      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-10-29-.jpg
+      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-03(1)-.jpg
+      - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-030.jpg
+      - src: /uploads/public/uploads/PHOTO-2024-01-08-23-33-29-.jpg
       - src: /uploads/public/uploads/PHOTO-2024-01-13-22-53-07.jpg
       - src: /uploads/public/uploads/PHOTO-2024-03-15-09-15-19(2)1.jpg
-      - src: /uploads/public/uploads/PHOTO-2024-03-30-21-31-21.jpg
+      - src: /uploads/public/uploads/PHOTO-2024-03-30-21-31-210.jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08(1).jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08.jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-14-10-05-46(1).jpg
