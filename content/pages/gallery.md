@@ -5,6 +5,7 @@ hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
   - title: ''
     images:
+      - src: /uploads/219c557b-deef-49bd-91e5-444f8a66f78e2.jpg
       - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
       - src: /uploads/public/uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
       - src: /uploads/public/uploads/gallery/e41d6567b6668140aa78efba87067583.jpeg
