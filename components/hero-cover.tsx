@@ -27,7 +27,7 @@ export const Cover = ({
         <div className="relative">
             {isLoading ? (
                 // Loading skeleton while the image is loading
-                <div className="animate-pulse bg-gray-500 w-full pb-[68%] flex items-center justify-center">
+                <div className="w-full rounded-lg shadow-lg pb-[68%] flex items-center justify-center">
                     {/* Skeleton Placeholder */}
                 </div>
             ) : (
