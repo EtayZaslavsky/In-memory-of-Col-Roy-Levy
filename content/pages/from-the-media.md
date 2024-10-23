@@ -28,6 +28,15 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: '"להרוג את רומל" - מאמר מעת רועי'
+    description: ''
+    articleLink: >-
+      https://www.maarachot.idf.il/media/yixamznk/%D7%9C%D7%94%D7%A8%D7%95%D7%92-%D7%90%D7%AA-%D7%A8%D7%95%D7%9E%D7%9C.pdf
+    linkText: לקריאת המאמר
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: ''
     title: 'אחרי הפציעה הקשה: השיקום והכניסה לתפקיד מפקד אגוז'
