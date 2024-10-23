@@ -23,7 +23,7 @@ seo:
     site: מנציחים את רועי
     cardType: summary_large_image
 title: חברים מספרים
-description: סיפורים אישיים מרגעים שנחקקו בלבבות
+description: רגעים שנחקקו בלבבות
 hero: /uploads/public/uploads/friends-stories-cover.jpeg
 blocks:
   - stories:
