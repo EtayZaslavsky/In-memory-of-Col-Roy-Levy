@@ -53,18 +53,27 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                         />
                     )}
 
-                    {mediaType === "video" && (
+                    {(mediaType === "video" || mediaType === "image") && (
                         <div className="w-full md:w-1/2">
                             {title && (
-                                <h2 className="text-2xl font-bold mb-4" data-tina-field={tinaField({ title }, "title")}>
+                                <h2
+                                    className={`${mediaType === "video" ? "text-2xl font-bold" : "text-xl"} mb-4`}
+                                    data-tina-field={tinaField({ title }, "title")}
+                                >
                                     {title}
                                 </h2>
                             )}
                             {description && (
-                                <TinaMarkdown content={description} />
+                                <div className="text-lg">
+                                    <TinaMarkdown content={description} />
+                                </div>
                             )}
                             {articleLink && (
-                                <p className="text-lg text-gray-700" data-tina-field={tinaField({ articleLink }, "articleLink")}>
+                                <p
+                                    className={`text-lg ${mediaType === "video" ? "text-gray-700" : "text-justify text-gray-600"
+                                        }`}
+                                    data-tina-field={tinaField({ articleLink }, "articleLink")}
+                                >
                                     <a
                                         href={articleLink}
                                         target="_blank"
@@ -78,35 +87,10 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                         </div>
                     )}
 
-                    {mediaType === "image" && (
-                        <div className="w-full md:w-1/2">
-
-                            {title && (
-                                <h2 className="text-2xl font-bold mb-4" data-tina-field={tinaField({ title }, "title")}>
-                                    {title}
-                                </h2>
-                            )}
-                            {description && (
-                                <TinaMarkdown content={description} />
-                            )}
-                            {articleLink && (
-                                <p className="text-lg text-gray-700" data-tina-field={tinaField({ articleLink }, "articleLink")}>
-                                    <a
-                                        href={articleLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex items-center font-semibold transition-colors duration-300"
-                                    >
-                                        <span className="mr-2">{linkText || "קרא עוד"}</span>
-                                    </a>
-                                </p>
-                            )}
-                        </div>
-                    )}
                 </div>
 
             </Container>
-        </Section>
+        </Section >
     );
 };
 

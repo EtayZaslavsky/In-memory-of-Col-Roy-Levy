@@ -1,4 +1,4 @@
-import colors from "tailwindcss/colors";
+import colors, { black } from "tailwindcss/colors";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
@@ -10,7 +10,8 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      black: colors.black,
+      // black: colors.black,
+      black: "#453838",
       white: colors.white,
       teal: colors.cyan,
       red: colors.rose,
@@ -46,15 +47,32 @@ module.exports = {
         150: "#E6E3EF",
         200: "#E1DDEC",
         250: "#C9C5D5",
-        300: "#b2adbe",
-        400: "#918c9e",
-        500: "#716c7f",
+        300: "#B2ADBE",
+        400: "#918C9E",
+        500: "#716C7F",
         600: "#565165",
-        700: "#433e52",
+        700: "#433E52",
         800: "#363145",
         900: "#252336",
-        1000: "#1c1b2e",
+        1000: "#453838",  // Your specific color
       },
+
+
+      // gray: {
+      //   50: "#F6F6F9",
+      //   100: "#EDECF3",
+      //   150: "#E6E3EF",
+      //   200: "#E1DDEC",
+      //   250: "#C9C5D5",
+      //   300: "#b2adbe",
+      //   400: "#918c9e",
+      //   500: "#716c7f",
+      //   600: "#565165",
+      //   700: "#433e52",
+      //   800: "#363145",
+      //   900: "#252336",
+      //   1000: "#1c1b2e",
+      // },
       blue: {
         50: "#DCEEFF",
         100: "#B4DBFF",

@@ -5,6 +5,7 @@ export const Container = ({
   children,
   size = "medium",
   width = "large",
+  paddingX = "default",
   className = "",
   ...props
 }) => {
@@ -26,6 +27,7 @@ export const Container = ({
     <div
       className={cn(
         widthClass[width],
+        // `mx-auto px-6 sm:px-8`,
         `mx-auto px-6 sm:px-8`,
         verticalPadding[size],
         className
