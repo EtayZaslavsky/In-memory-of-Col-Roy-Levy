@@ -28,7 +28,7 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
-    imageSrc: ''
+    imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: ''
     title: 'אחרי הפציעה הקשה: השיקום והכניסה לתפקיד מפקד אגוז'
     description: >
