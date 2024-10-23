@@ -27,6 +27,23 @@ description: מפעלי ואירועי הנצחה
 hero: /uploads/public/uploads/memorial-cover.jpeg
 blocks:
   - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם'
+    description: >
+      מתוך כתבת ישראל היום:
+
+
+      בבוקר של אותה שבת ארורה, מפקד היחידה הרב־ממדית, אל"מ רועי לוי, לא חשב
+      פעמיים ויצא ללחימה בעוטף • הקשר שלו, רס"ל ע': "נכנסנו לקיבוץ רעים, ירו
+      עלינו, מטענים התפוצצו לידינו, אבל רועי אמר: 'מסתערים לכיוון הירי'" • תוך
+      כדי לחימה, קיבל רועי כדור הישר בלב - ומת במקום • "יהיה לנו זמן להתאבל,
+      כרגע צריך להילחם"
+    articleLink: 'https://www.israelhayom.co.il/news/defense/article/14744224'
+    linkText: להמשך הכתבה
+    _template: image
+  - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
     title: סרטון ההנצחה של המשפחה

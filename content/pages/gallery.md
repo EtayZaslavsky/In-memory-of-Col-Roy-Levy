@@ -29,6 +29,31 @@ hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
   - title: ''
     images:
+      - src: /uploads/public/uploads/0917ce93-97d3-4282-a959-aad815bf97de.jpg
+      - src: /uploads/public/uploads/09955033-84e6-4a68-8d25-1eadb7639a37.jpg
+      - src: /uploads/public/uploads/2c7b2f3d-9235-4e19-a8a5-438f8da3b6a9.jpg
+      - src: /uploads/public/uploads/2fa6f3d0-9f7b-4322-945b-541f24f2c248.jpg
+      - src: /uploads/public/uploads/3341cf04-8273-49b9-a9d3-e69db2dadbc0.jpg
+      - src: /uploads/public/uploads/34ebb67e-8bc1-4643-bdb2-b376355ce2f1.jpg
+      - src: /uploads/public/uploads/37c0bb36-63b4-42fd-90ef-9ce0f0cb0e5b.jpg
+      - src: /uploads/public/uploads/4554266f-06e9-440f-ab63-04f970d2bfe7.jpg
+      - src: /uploads/public/uploads/51a98d0c-c042-4959-bc04-fa53db544977.jpg
+      - src: /uploads/public/uploads/658e468c-05ef-4076-9c4b-072c9c86b546.jpg
+      - src: /uploads/public/uploads/6f94c28f-4faa-47c0-89f9-cc3bf149c825.jpg
+      - src: /uploads/public/uploads/768ec5da-198a-4c6d-aad2-a59ff4a50e35.jpg
+      - src: /uploads/public/uploads/801a87d3-8b9f-42d7-8ec3-a5cb56fc4e41.jpg
+      - src: /uploads/public/uploads/8532cb53-de7a-4820-99e3-680386728359.jpg
+      - src: /uploads/public/uploads/91fb3f98-9a11-4bc0-8b5c-a3a405614fe0.jpg
+      - src: /uploads/public/uploads/9adbeefe-1309-4d94-870f-f80615251974.jpg
+      - src: /uploads/public/uploads/b056db5f-fc3d-4a90-a87e-4bb53f552512.jpg
+      - src: /uploads/public/uploads/b4faada1-24f1-40e0-8f9f-fa8b99242f32.jpg
+      - src: /uploads/public/uploads/bde8e03b-6df1-48d9-bc14-3b7a22f9b923.jpg
+      - src: /uploads/public/uploads/c36c6676-5a8c-4663-b926-16de3bf3113a.jpg
+      - src: /uploads/public/uploads/cb284749-2324-484f-b173-7388d7ddacdc.jpg
+      - src: /uploads/public/uploads/d018f3cf-01f1-4598-b78c-58031fa485a7.jpg
+      - src: /uploads/public/uploads/df9b4e59-308a-400f-a052-389d2ee7121d.jpg
+      - src: /uploads/public/uploads/e6fb46ea-36db-4017-9dad-6e6ddc97ab09.jpg
+      - src: /uploads/public/uploads/fb997107-368f-4e7f-a81f-f1b2f9cf5620.jpg
       - src: /uploads/public/uploads/219c557b-deef-49bd-91e5-444f8a66f78e2.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0027.jpg
       - src: /uploads/public/uploads/312f946e-bca6-4423-ae84-3f894ab00388.jpg
