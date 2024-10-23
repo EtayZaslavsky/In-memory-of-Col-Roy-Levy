@@ -29,7 +29,7 @@ hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
   - title: ''
     images:
-      - src: /uploads/public/uploads/0917ce93-97d3-4282-a959-aad815bf97de.jpg
+      - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
       - src: /uploads/public/uploads/09955033-84e6-4a68-8d25-1eadb7639a37.jpg
       - src: /uploads/public/uploads/2c7b2f3d-9235-4e19-a8a5-438f8da3b6a9.jpg
       - src: /uploads/public/uploads/2fa6f3d0-9f7b-4322-945b-541f24f2c248.jpg
@@ -125,7 +125,6 @@ blocks:
       - src: /uploads/public/uploads/gallery/0e3820399a3f311be961e8150ddb9e64.jpeg
       - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
       - src: /uploads/public/uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
-      - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
     _template: imageGallery
 ---
 

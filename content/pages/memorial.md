@@ -30,7 +30,7 @@ blocks:
     mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם'
+    title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם"'
     description: >
       מתוך כתבת ישראל היום:
 
