@@ -173,6 +173,106 @@ blocks:
     _template: video
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/public/uploads/img1134426.webp
+    mediaSrc: ''
+    title: '"הוא היה מנהיג, החיילים העריצו אותו"'
+    description: >
+      שריה לוטן, חבר ילדות של אל"מ רועי לוי, מפקד היחידה הרב מימדית שנהרג במתקפת
+      חמאס, ספד לו בראיון לגלי צה"ל.
+
+
+      "לא
+       הופתעתי לשמוע מה הוא עשה. כי ברגע שקראתי ושמעתי מהחברים שהוא חתר למגע 
+      ראשון להיכנס שם ולהציל את כל מי שנשאר חי בקיבוץ רעים. הוא היה מנהיג 
+
+      ברמ"ח אבריו. תמיד הוא היה מפקד", אמר לוטן.
+
+
+      היא הזכיר את פציעתו הקשה מאוד של חברו במבצע 'צוק איתן'. "בסג'עיה היה לו שם
+      נס...
+    articleLink: 'https://www.inn.co.il/news/616007'
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/public/uploads/WhatsApp Image 2024-09-30 at 08.17.38.jpeg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: 'כשבננו נהרג, מפקדו רועי לוי לקח אחריות'
+    description: |
+      כתבתו של אבי יעקבי מעיתון הארץ.
+    articleLink: >-
+      https://www.haaretz.co.il/opinions/2023-10-09/ty-article-opinion/.premium/0000018b-13c1-dcc2-a99b-17d17f090000
+    linkText: קרא עוד
+    _template: image
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=sHvZy_DX4hEFyHRh'
+    title: סרטון ההנצחה של המשפחה
+    description: >
+      הסרטון שוזר יחד אירועים מחייו של רועי, מהילדים והמשפחה, מהצבא, ומהאדם
+      הפשוט והמיוחד שהיה.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.kan.org.il/content/kan-news/newstv/p-11894/s1/748488/'
+    title: השבעה באוקטובר של היחידה הרב מימדית
+    description: |
+      מורשת הקרב של יחידת רפאים, יחידת העילִית
+      הרב-ממדית, נכתבת ממש בחודשים אלה. אלוף משנה רועי לוי, מפקד היחידה, נפצע
+      אנוש בצוק איתן ונאבק לשוב להילחם. סרן יותם בן בסט היה מפקד פלגת ההכשרות
+      ביחידה, רחוק רק כמה ימים מהשחרור מצה"ל. בשבעה באוקטובר הם יצאו יחד
+      להילחם בעשרות המחבלים שפלשו לקיבוץ רעים, הצליחו לחלץ מהממ"דים עשרות
+      צעירים שנמלטו ממסיבת נובה - ונפלו בקרבות
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
+      https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKANREALTIME%2Fvideos%2F1046908470070002%2F&show_text=false&width=560
+    title: גבורתם של המח"טים
+    description: |
+      תוכנית זמן אמת עם יעל אישתו של רועי, עליו ועל נפילתו בקרב.
+    articleLink: 'https://www.facebook.com/watch/?v=1046908470070002'
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
+      https://www.youtube-nocookie.com/embed/ZBApFvuXxY4?si=AEaqv-wKObd9e7om&amp;start=55
+    title: עליו נאמר "קשה באימונים קל בקרב"
+    description: |
+      אופיר אזרד מביא את סיפורו של רועי לערוץ 14.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/gxOuAeqXG88?si=_H4ufb8YnXHC8Roz'
+    title: סרטון ההנצחה של היחידה הרב מימדית
+    description: |
+      בראיונות עם פקודיו וחבריו לקרב מהיחידה. על הרוח שהביא ועל האיש שהיה עבורם.
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
+    mediaSrc: >-
+      https://www.youtube-nocookie.com/embed/wUHT1jLUNgo?si=f5G_g1bDVM6QQfXQ&amp;start=38
+    title: ' "חוליות חדרו, אנשים נלחמים על הבית. נתראה"'
+    description: >
+      טכנולוגיות לגילוי אויב, פצמ"רים מדויקים ולהקות רחפנים שקטות: היחידה
+      הרב-ממדית איבדה ב-7/10 את מפקדה אל"מ רועי לוי שנפצע אנוש בצוק איתן, ונפל
+      בקרב ברעים. מאז המשיכה להילחם וקצרה הישגים: "רועי אמר לנו - תעזבו את
+      הגאדג'טים, אתם קודם כל לוחמים". תיעוד לוחמי היחידה החשאית וההקלטה האחרונה
+      של המפקד שנהרג: "חוליות חדרו, אנשים נלחמים על הבית. נתראה"
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: ''
     title: גבעת רועי בהרי ירושלים
