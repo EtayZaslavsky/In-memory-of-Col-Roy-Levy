@@ -24,7 +24,7 @@ seo:
     cardType: summary_large_image
 title: חברים מספרים
 description: רגעים שנחקקו בלבבות
-hero: /uploads/public/uploads/friends-stories-cover.jpeg
+hero: /uploads/public/uploads/51a98d0c-c042-4959-bc04-fa53db544977.jpg
 blocks:
   - stories:
       - title: הרושם הראשוני שהלך והתחזק עם הזמן
