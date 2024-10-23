@@ -28,8 +28,8 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
-    imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    imageSrc: ''
+    mediaSrc: ''
     title: 'אחרי הפציעה הקשה: השיקום והכניסה לתפקיד מפקד אגוז'
     description: >
       מתוך כתבה של יוסי יהושוע בידיעות אחרונות:\
