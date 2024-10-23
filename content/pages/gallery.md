@@ -1,5 +1,29 @@
 ---
-title: תמונות
+seo:
+  title: מנציחים את רועי - תמונות
+  description: >
+    תמונות מהאלבום המשפחתי לזכרו של רועי, יקירנו, חברנו ואהובנו. בחרנו לשתף אתכם
+    קצת בחיים של  של אלוף משנה רועי לוי, שהקדיש את חייו להגנת מולדתנו וחרף נפשו
+    בהגנה על תושבי קיבוץ רעים בבוקר השבעה באוקטובר.
+  openGraph:
+    url: 'https://www.roylevy.co.il/'
+    type: website
+    title: מנציחים את רועי
+    description: >-
+      האתר של המשפחה והחברים לזכרו של אלוף משנה רועי לוי, שהקדיש את חייו להגנת
+      מולדתנו וחרף נפשו בהגנה על תושבי קיבוץ רעים בבוקר השבעה באוקטובר.
+    images:
+      - url: >-
+          https://assets.tina.io/a5107ffd-adb0-45bd-8212-0bf50351d198/public/uploads/home-cover.jpeg
+    videos:
+      - url: >-
+          https://www.youtube.com/watch?v=lMi2TUQj3PU&embeds_referring_euri=https%3A%2F%2Fwww.roylevy.co.il%2F
+    locale: he_IL
+    siteName: מנציחים את רועי
+  twitter:
+    site: מנציחים את רועי
+    cardType: summary_large_image
+title: מנציחים את רועי - תמונות
 description: מהאלבום המשפחתי
 hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
@@ -38,12 +62,24 @@ blocks:
       - src: /uploads/public/uploads/PHOTO-2024-05-14-10-05-46.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0238.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0098.jpg
-      - src: /uploads/public/uploads/עותק של 1825c06f-8207-40e3-adfa-485e887c1a56.jpg
-      - src: /uploads/public/uploads/עותק של 1c00f19f-7625-4be7-862d-6e60097f9eda.jpg
-      - src: /uploads/public/uploads/עותק של 3327352d-74ce-400a-9466-24974d1b3789.jpg
-      - src: /uploads/public/uploads/עותק של 87bf373b-7129-4d8c-81fa-ec4e56f7642b.jpg
-      - src: /uploads/public/uploads/עותק של 90378fa3-d881-4490-b975-7d32be619fc5.jpg
-      - src: /uploads/public/uploads/עותק של 9e77b026-8a50-4300-b6bf-1df785526326.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          1825c06f-8207-40e3-adfa-485e887c1a56.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          1c00f19f-7625-4be7-862d-6e60097f9eda.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          3327352d-74ce-400a-9466-24974d1b3789.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          87bf373b-7129-4d8c-81fa-ec4e56f7642b.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          90378fa3-d881-4490-b975-7d32be619fc5.jpg
+      - src: >-
+          /uploads/public/uploads/עותק של
+          9e77b026-8a50-4300-b6bf-1df785526326.jpg
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08.jpg
       - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-030.jpg
       - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg

@@ -69,7 +69,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                                         href={articleLink}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="inline-flex items-center text-gray-50 hover:text-white-600 font-semibold transition-colors duration-300"
+                                        className="inline-flex items-center font-semibold transition-colors duration-300"
                                     >
                                         <span className="mr-2">{linkText || "קרא עוד"}</span>
                                     </a>
@@ -95,7 +95,7 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                                         href={articleLink}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="inline-flex items-center text-gray-50 hover:text-white-600 font-semibold transition-colors duration-300"
+                                        className="inline-flex items-center font-semibold transition-colors duration-300"
                                     >
                                         <span className="mr-2">{linkText || "קרא עוד"}</span>
                                     </a>

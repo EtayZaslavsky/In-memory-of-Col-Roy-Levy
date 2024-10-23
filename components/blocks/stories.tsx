@@ -62,7 +62,7 @@ export const Stories: React.FC = () => {
                         </motion.div>
                     ))}
                 </div>
-                <div className='z-10 fixed bg-black bottom-0 p-8 w-full text-center'>
+                <div className='z-10 fixed bg-white bottom-0 p-8 w-full text-center'>
                     הכרת את רועי? <a className='underline' href={`/add-story`}>הוסף סיפור כאן</a>
                 </div>
             </Container>

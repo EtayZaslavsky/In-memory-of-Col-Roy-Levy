@@ -66,7 +66,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
 
   return (
     <Section>
-      <Container className="max-w-lg mx-auto p-4 py-16 md:mb-8  bg-black-400 rounded-lg shadow-md">
+      <Container className="max-w-lg mx-auto p-4 py-16 md:mb-8 rounded-lg shadow-md">
         <h2
           className="text-2xl font-semibold mb-4"
           data-tina-field={tinaField(data, "title")}
@@ -85,7 +85,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
               type="text"
               name="title"
               onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded text-black"
+              className="w-full p-2 border bg-white rounded"
             />
             <label htmlFor="content" className="block text-sm font-medium mb-2">
               הסיפור*
@@ -94,7 +94,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
               name="content"
               onChange={handleChange}
               rows={15}
-              className="w-full p-2 border border-gray-300 text-black rounded"
+              className="w-full p-2 border bg-white rounded"
             />
             <label htmlFor="author_email" className="block text-sm font-medium mb-2">
               אימייל ליצירת קשר
@@ -103,7 +103,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
               type="text"
               name="author_email"
               onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded text-black"
+              className="w-full p-2 border bg-white rounded"
             />
             <label htmlFor="author_phone" className="block text-sm font-medium mb-2">
               טלפון ליצירת קשר
@@ -112,7 +112,7 @@ export const StoryForm: React.FC<{ data: any }> = ({ data }) => {
               type="text"
               name="author_phone"
               onChange={handleChange}
-              className="w-full p-2 border border-gray-300 rounded text-black"
+              className="w-full p-2 border bg-white rounded"
             />
             {/* Conditionally render hCaptcha in production */}
             {process.env.NODE_ENV === 'production' && (

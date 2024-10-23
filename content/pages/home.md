@@ -1,4 +1,27 @@
 ---
+seo:
+  title: מנציחים את רועי
+  description: >
+    האתר של המשפחה והחברים לזכרו של אלוף משנה רועי לוי, שהקדיש את חייו להגנת
+    מולדתנו וחרף נפשו בהגנה על תושבי קיבוץ רעים בבוקר השבעה באוקטובר.
+  openGraph:
+    url: 'https://www.roylevy.co.il/'
+    type: website
+    title: מנציחים את רועי
+    description: >-
+      האתר של המשפחה והחברים לזכרו של אלוף משנה רועי לוי, שהקדיש את חייו להגנת
+      מולדתנו וחרף נפשו בהגנה על תושבי קיבוץ רעים בבוקר השבעה באוקטובר.
+    images:
+      - url: >-
+          https://assets.tina.io/a5107ffd-adb0-45bd-8212-0bf50351d198/public/uploads/home-cover.jpeg
+    videos:
+      - url: >-
+          https://www.youtube.com/watch?v=lMi2TUQj3PU&embeds_referring_euri=https%3A%2F%2Fwww.roylevy.co.il%2F
+    locale: he_IL
+    siteName: מנציחים את רועי
+  twitter:
+    site: מנציחים את רועי
+    cardType: summary_large_image
 title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023.'
 hero: /uploads/public/uploads/home-cover.jpeg
@@ -14,19 +37,19 @@ blocks:
     linkText: ''
     _template: video
   - items:
-      - icon: /uploads/public/uploads/symbols/94f22b00529e72ca0ec43f68c0c602c9.png
+      - icon: /uploads/symbols/94f22b00529e72ca0ec43f68c0c602c9.png
         title: חברים מספרים
         link: /friends-stories
-      - icon: /uploads/public/uploads/symbols/934aedf9ea7b99b17ecf0fc371df8c85.png
+      - icon: /uploads/symbols/934aedf9ea7b99b17ecf0fc371df8c85.png
         title: מהתקשורת
         link: /from-the-media
-      - icon: /uploads/public/uploads/symbols/be74c69d7ab8e05034d17bd31879e99a.png
+      - icon: /uploads/symbols/be74c69d7ab8e05034d17bd31879e99a.png
         title: הנצחה
         link: /memorial
-      - icon: /uploads/public/uploads/symbols/dc4a2391467d4628c2cdcd1f0987ac34.png
+      - icon: /uploads/symbols/dc4a2391467d4628c2cdcd1f0987ac34.png
         title: על רועי
         link: /about
-      - icon: /uploads/public/uploads/symbols/ebbf8260f29aba50cfe4c841623297e2.png
+      - icon: /uploads/symbols/ebbf8260f29aba50cfe4c841623297e2.png
         title: תמונות
         link: /gallery
     color: tint

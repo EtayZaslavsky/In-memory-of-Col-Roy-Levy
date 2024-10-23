@@ -11,7 +11,7 @@ import { useLayout } from "../layout/layout-context";
 
 const headerColor = {
   default:
-    "text-black dark:text-white from-gray-50 to-white dark:from-gray-800 dark:to-gray-900",
+    "text-black from-gray-50 to-white",
   primary: {
     blue: "text-white from-blue-300 to-blue-500",
     teal: "text-white from-teal-400 to-teal-500",

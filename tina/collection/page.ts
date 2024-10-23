@@ -7,6 +7,7 @@ import { imageBlockSchema } from "../../components/blocks/image-card";
 import { timeframeBlockSchema } from "../../components/blocks/timeline";
 import { storyFormBlockSchema } from "../../components/blocks/story-form";
 import { storiesBlockSchema } from "../../components/blocks/stories";
+import { defaultSeoPageProps, seoPageProps } from "@pcode-at/tinacms-seo";
 
 const Page: Collection = {
   label: "Pages",
@@ -33,6 +34,7 @@ const Page: Collection = {
     },
   },
   fields: [
+    seoPageProps,
     {
       type: "string",
       label: "Title",
