@@ -55,7 +55,7 @@ export const components: Components<{
   },
   NewsletterSignup: (props) => {
     return (
-      <div className="bg-white">
+      <div className="bg-[#FFF8CB]">
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="">
             <TinaMarkdown content={props.children} />

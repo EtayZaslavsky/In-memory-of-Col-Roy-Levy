@@ -34,7 +34,7 @@ export const Cover = ({
                 <>
                     <img className="w-full" src={image} alt="Background" />
                     {/* <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4"> */}
-                    <div className="bg-white text-center bg-opacity-50 px-4 py-2 rounded">
+                    <div className="bg-[#FFF8CB] text-center bg-opacity-50 px-4 py-2 rounded">
                         <h1 className="text-xl tracking-normal leading-tight title-font text-black mb-4">
                             {description}
                         </h1>

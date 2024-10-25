@@ -27,67 +27,81 @@ export const MediaCard: React.FC<MediaCardProps> = ({
     linkText,
     mediaSide,
 }) => {
+    const hasMedia = mediaType === "video" || mediaType === "image";
+
     return (
         <Section>
             <Container className="py-16">
-                <div className={`flex flex-col items-start ${mediaSide === "left" ? "md:flex-row-reverse" : "md:flex-row"} md:gap-x-4 lg:gap-x-6 xl:gap-x-8`}>
-                    {mediaType === "video" && (
-                        <div className="w-full md:w-1/2 mb-8 md:mb-0">
-                            <div className="relative" style={{ paddingBottom: "56.25%" }}>
-                                <iframe
-                                    className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-                                    src={mediaSrc}
-                                    referrerPolicy="strict-origin-when-cross-origin"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-                        </div>
 
-                    )}
-
-                    {mediaType === "image" && (
-                        <img
-                            className="m-auto p-x-8 md:w-auto h-auto sm:max-h-[16rem] md:max-h-[24rem] lg:max-h-[32rem] rounded-lg shadow-lg"
-                            src={imageSrc}
-                            alt={title ?? "Media Image"}
-                        />
-                    )}
-
-                    {(mediaType === "video" || mediaType === "image") && (
-                        <div className="w-full md:w-1/2">
-                            {title && (
-                                <h2
-                                    className={`${mediaType === "video" ? "text-2xl font-bold" : "text-xl"} mb-4`}
-                                    data-tina-field={tinaField({ title }, "title")}
-                                >
-                                    {title}
-                                </h2>
-                            )}
-                            {description && (
-                                <div className="text-lg">
-                                    <TinaMarkdown content={description} />
+                <div
+                    className={`${hasMedia
+                        ? `flex flex-col items-start ${mediaSide === "left" ? "md:flex-row-reverse" : "md:flex-row"
+                        } md:gap-x-4 lg:gap-x-6 xl:gap-x-8`
+                        : ""
+                        }`}
+                >
+                    {/* Media Content */}
+                    {hasMedia && (
+                        <>
+                            {mediaType === "video" && (
+                                <div className="w-full md:w-1/2 mb-8 md:mb-0">
+                                    <div className="relative" style={{ paddingBottom: "56.25%" }}>
+                                        <iframe
+                                            className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                                            src={mediaSrc}
+                                            referrerPolicy="strict-origin-when-cross-origin"
+                                            allowFullScreen
+                                        ></iframe>
+                                    </div>
                                 </div>
                             )}
-                            {articleLink && (
-                                <p
-                                    className={`text-lg ${mediaType === "video" ? "text-gray-700" : "text-justify text-gray-600"
-                                        }`}
-                                    data-tina-field={tinaField({ articleLink }, "articleLink")}
-                                >
-                                    <a
-                                        href={articleLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex items-center font-semibold transition-colors duration-300"
-                                    >
-                                        <span className="mr-2">{linkText || "קרא עוד"}</span>
-                                    </a>
-                                </p>
+
+                            {mediaType === "image" && (
+                                <img
+                                    className="m-auto p-x-8 md:w-auto h-auto sm:max-h-[16rem] md:max-h-[24rem] lg:max-h-[32rem] rounded-lg shadow-lg"
+                                    src={imageSrc}
+                                    alt={title ?? "Media Image"}
+                                />
                             )}
-                        </div>
+                        </>
                     )}
 
+                    {/* Text Content */}
+                    <div className={`${hasMedia ? "w-full md:w-1/2" : "w-full"}`}>
+                        {title && (
+                            <h2
+                                className="font-bold text-xl mb-4"
+                                data-tina-field={tinaField({ title }, "title")}
+                            >
+                                {title}
+                            </h2>
+                        )}
+                        {description && (
+                            <div className="text-lg">
+                                <TinaMarkdown content={description} />
+                            </div>
+                        )}
+                        {articleLink && (
+                            <p
+                                className={`text-lg ${mediaType === "video"
+                                    ? "text-gray-700"
+                                    : "text-justify text-gray-600"
+                                    }`}
+                                data-tina-field={tinaField({ articleLink }, "articleLink")}
+                            >
+                                <a
+                                    href={articleLink}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="inline-flex items-center font-semibold transition-colors duration-300"
+                                >
+                                    <span className="mr-2">{linkText || "קרא עוד"}</span>
+                                </a>
+                            </p>
+                        )}
+                    </div>
                 </div>
+
 
             </Container>
         </Section >

@@ -24,7 +24,7 @@ seo:
     cardType: summary_large_image
 title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023'
-hero: /uploads/public/uploads/6c86b70bd4f17f2b21238dab5751cd1b.png
+hero: ''
 blocks:
   - mediaSide: right
     mediaType: video
@@ -52,7 +52,7 @@ blocks:
     _template: features
   - mediaSide: left
     mediaType: image
-    imageSrc: /uploads/public/uploads/6c86b70bd4f17f2b21238dab5751cd1b.png
+    imageSrc: ''
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: יום השבעה באוקטובר
     description: >
@@ -103,7 +103,7 @@ blocks:
     linkText: ''
     _template: image
   - mediaType: image
-    imageSrc: /uploads/public/uploads/ce9abcf55f0abf51b262db490a4057eb.png
+    imageSrc: ''
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: 'חברים מספרים:'
     description: >
@@ -123,7 +123,7 @@ blocks:
     mediaType: image
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: מפעלי הנצחה לזכרו
+    title: ''
     description: >
       בחודש מאי 2024 נחנכה ״גבעת רועי״ - מצפה בהרי ירושלים, באזור דרך בורמה
       ומצפה הראל. מקום בו נוכל כולנו להכיר, לשמוע, להתייחד, להעלות זכרונות
@@ -136,7 +136,7 @@ blocks:
     articleLink: /memorial
     linkText: לעמוד ההנצחה
     _template: image
-  - title: מהאלבום המשפחתי
+  - title: ''
     images:
       - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
       - src: /uploads/public/uploads/about-cover.jpeg

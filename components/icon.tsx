@@ -62,7 +62,7 @@ const iconColorClass: {
   },
   white: {
     regular: "text-white opacity-80",
-    circle: "bg-white-400 dark:bg-white-500 text-white-50",
+    circle: "bg-[#FFF8CB]-400 dark:bg-[#FFF8CB]-500 text-white-50",
   },
 };
 

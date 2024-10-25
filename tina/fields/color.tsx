@@ -23,7 +23,7 @@ export const ColorPickerInput = wrapFieldsWithMeta(({ input }) => {
     red: "bg-red-500 border-red-600",
     pink: "bg-pink-500 border-pink-600",
     purple: "bg-purple-500 border-purple-600",
-    white: "bg-white border-gray-150",
+    white: "bg-[#FFF8CB] border-gray-150",
   };
 
   return (
@@ -34,13 +34,11 @@ export const ColorPickerInput = wrapFieldsWithMeta(({ input }) => {
           return (
             <button
               key={color}
-              className={`w-9 h-9 rounded-full shadow border ${
-                inputClasses[color]
-              } ${
-                input.value === color
+              className={`w-9 h-9 rounded-full shadow border ${inputClasses[color]
+                } ${input.value === color
                   ? "ring-[3px] ring-offset-2 ring-blue-400"
                   : ""
-              }`}
+                }`}
               onClick={() => {
                 input.onChange(color);
               }}

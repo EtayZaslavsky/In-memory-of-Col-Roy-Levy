@@ -68,13 +68,13 @@ export const IconPickerInput = wrapFieldsWithMeta(({ input }) => {
                 leaveFrom="transform opacity-100 translate-y-0"
                 leaveTo="transform opacity-0 -translate-y-2"
               >
-                <PopoverPanel className="relative overflow-hidden rounded-lg shadow-lg bg-white border border-gray-150 z-50">
+                <PopoverPanel className="relative overflow-hidden rounded-lg shadow-lg bg-[#FFF8CB] border border-gray-150 z-50">
                   {({ close }) => (
                     <div className="max-h-[24rem] flex flex-col w-full h-full">
                       <div className="bg-gray-50 p-2 border-b border-gray-100 z-10 shadow-sm">
                         <input
                           type="text"
-                          className="bg-white text-sm rounded-sm border border-gray-100 shadow-inner py-1.5 px-2.5 w-full block placeholder-gray-200"
+                          className="bg-[#FFF8CB] text-sm rounded-sm border border-gray-100 shadow-inner py-1.5 px-2.5 w-full block placeholder-gray-200"
                           onClick={(event: any) => {
                             event.stopPropagation();
                             event.preventDefault();

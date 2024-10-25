@@ -59,7 +59,7 @@ export default function Header() {
 
   return (
     <div
-      className={`bg-gradient-to-b ${headerColorCss} ${isSticky ? "fixed top-0 z-50 w-full bg-white shadow-lg" : ""
+      className={`bg-gradient-to-b ${headerColorCss} ${isSticky ? "fixed top-0 z-50 w-full bg-[#FFF8CB] shadow-lg" : ""
         } transition-all duration-500 ease-out`}
     >
       <Container size="custom" className="py-0 relative h-auto z-10 max-w-8xl">
