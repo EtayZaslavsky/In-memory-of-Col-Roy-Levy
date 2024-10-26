@@ -219,16 +219,6 @@ blocks:
     articleLink: ''
     linkText: קישור למיקום בווייז
     _template: image
-  - title: כתבות
-    images:
-      - src: /uploads/public/uploads/bbea679cb414629e12796e5a9383f368.png
-        alt: ''
-        caption: ''
-      - src: /uploads/public/uploads/22d757261e19cd56a7d42ed193b6b79b.png
-        alt: ''
-        caption: ''
-      - src: /uploads/public/uploads/0638fbaed7e04b806141e98091a4845f.png
-    _template: imageGallery
   - mediaSide: right
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/vWsnaOUD17U?si=DxNs5YVyBzQzWyhl'

@@ -13,22 +13,37 @@ type MediaCardProps = {
     imageSrc?: string;
     description?: TinaMarkdownContent;
     articleLink?: string;
+    isPortrait?: boolean;
     linkText?: string;
     mediaSide?: "left" | "right";
+};
+
+const getExcerptByLine = (content, lineLimit) => {
+    if (!content) return '';
+
+    // Convert to plain text if it's an object (assuming TinaMarkdown may contain blocks of text)
+    const plainText = typeof content === 'string'
+        ? content
+        : content.map(block => block.children.map(child => child.text).join(' ')).join(' ');
+
+    // Split by line breaks and limit to specified line count
+    const lines = plainText.split('\n');
+    return lines.slice(0, lineLimit).join('\n') + (lines.length > lineLimit ? '\n...' : '');
 };
 
 export const MediaCard: React.FC<MediaCardProps> = ({
     mediaType,
     mediaSrc,
     title,
+    isPortrait,
     description,
     articleLink,
     imageSrc,
     linkText,
     mediaSide,
 }) => {
-    const hasMedia = mediaType === "video" || mediaType === "image";
-
+    const hasMedia = mediaType === "video" && mediaSrc || mediaType === "image" && imageSrc;
+    const hasText = title || description;
     return (
         <Section>
             <Container className="py-16">
@@ -43,20 +58,38 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                     {/* Media Content */}
                     {hasMedia && (
                         <>
-                            {mediaType === "video" && (
-                                <div className="w-full md:w-1/2 mb-8 md:mb-0">
-                                    <div className="relative" style={{ paddingBottom: "56.25%" }}>
+                            {mediaType === "video" && mediaSrc && isPortrait && (
+                                <div className={`${hasText ? "w-full md:w-1/2" : "w-full"} mb-8 md:mb-0`}>
+                                    <div className="relative w-full" style={{ paddingBottom: "212%" }}>
+                                        {isPortrait}
                                         <iframe
                                             className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
                                             src={mediaSrc}
                                             referrerPolicy="strict-origin-when-cross-origin"
+
                                             allowFullScreen
                                         ></iframe>
                                     </div>
                                 </div>
                             )}
 
-                            {mediaType === "image" && (
+                            {mediaType === "video" && mediaSrc && !isPortrait && (
+                                <div className={`${hasText ? "w-full md:w-1/2" : "w-full"} mb-8 md:mb-0`}>
+                                    <div className="relative" style={{ paddingBottom: "56.25%" }}>
+                                        {isPortrait}
+
+                                        <iframe
+                                            className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                                            src={mediaSrc}
+                                            referrerPolicy="strict-origin-when-cross-origin"
+
+                                            allowFullScreen
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            )}
+
+                            {mediaType === "image" && imageSrc && (
                                 <img
                                     className="m-auto p-x-8 md:w-auto h-auto sm:max-h-[16rem] md:max-h-[24rem] lg:max-h-[32rem] rounded-lg shadow-lg"
                                     src={imageSrc}
@@ -77,10 +110,9 @@ export const MediaCard: React.FC<MediaCardProps> = ({
                             </h2>
                         )}
                         {description && (
-                            <div className="text-lg">
-                                <TinaMarkdown content={description} />
-                            </div>
+                            <TinaMarkdown content={description} />
                         )}
+
                         {articleLink && (
                             <p
                                 className={`text-lg ${mediaType === "video"
@@ -150,6 +182,16 @@ export const mediaCardBlockSchema: Template = {
             name: "mediaSrc",
         },
         {
+            type: "number",
+            label: "Width",
+            name: "width",
+        },
+        {
+            type: "number",
+            label: "Height",
+            name: "height",
+        },
+        {
             type: "string",
             label: "Title",
             name: "title",
@@ -168,6 +210,14 @@ export const mediaCardBlockSchema: Template = {
             type: "string",
             label: "Link Text",
             name: "linkText",
+        },
+        {
+            type: "boolean",
+            label: "Is Portrait",
+            name: "isPortrait",
+            ui: {
+                defaultValue: false,
+            },
         },
     ],
 };

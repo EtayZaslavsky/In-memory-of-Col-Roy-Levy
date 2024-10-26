@@ -117,6 +117,7 @@ const Global: Collection = {
               label: "Lato",
               value: "lato",
             },
+            { label: "Felix", value: "felix" },
           ],
         },
         {

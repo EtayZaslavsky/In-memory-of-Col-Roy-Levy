@@ -17,7 +17,11 @@
       },
       {
         "href": "from-the-media",
-        "label": "מהתקשורת"
+        "label": "מחייו"
+      },
+      {
+        "href": "7-10",
+        "label": "השבעה באוקטובר"
       },
       {
         "href": "memorial",
@@ -36,7 +40,7 @@
   },
   "theme": {
     "color": "blue",
-    "font": "sans",
-    "darkMode": "dark"
+    "font": "felix",
+    "darkMode": "light"
   }
 }

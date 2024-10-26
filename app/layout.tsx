@@ -5,6 +5,19 @@ import { Inter as FontSans, Lato, Nunito } from "next/font/google";
 import { cn } from "../lib/utils";
 import { Metadata } from "next";
 import client from "../tina/__generated__/client";
+import localFont from 'next/font/local';
+
+const felix = localFont({
+  src: [
+    {
+      path: '../public/fonts/felix.woff',
+      weight: '500',
+      style: 'normal',
+    },
+  ],
+
+  variable: '--font-felix',
+});
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -41,6 +54,8 @@ export default async function RootLayout({
     switch (fontName) {
       case "nunito":
         return `font-nunito ${nunito.variable}`;
+      case "felix":
+        return `font-felix ${felix.variable}`;
       case "lato":
         return `font-lato ${lato.variable}`;
       case "sans":
@@ -48,12 +63,14 @@ export default async function RootLayout({
         return `font-sans ${fontSans.variable} `;
     }
   };
-  const fontVariable = selectFont(global?.theme?.font || "sans");
+  // const fontVariable = selectFont(global?.theme?.font || "sans");
+  const fontVariable = "felix";
 
   return (
     <html lang="he" dir="rtl" suppressHydrationWarning>
       <body
         className={cn("min-h-screen flex flex-col antialiased dark", fontVariable)}
+        style={{ fontFamily: "felix !important" }} // fontFamily
       >
         <ThemeProvider
           attribute="class"
