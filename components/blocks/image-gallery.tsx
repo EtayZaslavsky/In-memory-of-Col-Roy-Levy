@@ -27,7 +27,7 @@ export const ImageGallery: React.FC<{ data: PageBlocksImageGallery }> = ({ data 
               {image?.src && (
                 <img
                   src={image.src}
-                  alt={image.alt ?? "Gallery Image"}
+                  alt={image.alt ?? "תמונה"}
                   width={500}
                   height={500}
                   className="object-cover w-full h-full rounded-lg"

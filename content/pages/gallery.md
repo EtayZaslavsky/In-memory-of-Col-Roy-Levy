@@ -29,11 +29,15 @@ hero: /uploads/public/uploads/gallery-cover.jpeg
 blocks:
   - title: ''
     images:
-      - src: /uploads/public/uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
-      - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
+      - src: /uploads/public/uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
+      - src: /uploads/public/uploads/gallery/a6cbadbe1fbe437f7d6337ac4cc84940.jpeg
+      - src: /uploads/public/uploads/gallery/a5a37f934a1738d29a89b0b4904f7cfb.jpeg
+      - src: /uploads/public/uploads/gallery/10a008f6a405c47bbb5880d44da78c5f.jpeg
+      - src: /uploads/public/uploads/gallery/0e3820399a3f311be961e8150ddb9e64.jpeg
+      - src: /uploads/public/uploads/gallery/d1bfc1fb99af321af22930c0f8e53bae.jpeg
+      - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
       - src: /uploads/public/uploads/09955033-84e6-4a68-8d25-1eadb7639a37.jpg
       - src: /uploads/public/uploads/2c7b2f3d-9235-4e19-a8a5-438f8da3b6a9.jpg
-      - src: /uploads/public/uploads/2fa6f3d0-9f7b-4322-945b-541f24f2c248.jpg
       - src: /uploads/public/uploads/3341cf04-8273-49b9-a9d3-e69db2dadbc0.jpg
       - src: /uploads/public/uploads/34ebb67e-8bc1-4643-bdb2-b376355ce2f1.jpg
       - src: /uploads/public/uploads/37c0bb36-63b4-42fd-90ef-9ce0f0cb0e5b.jpg
@@ -58,12 +62,15 @@ blocks:
       - src: /uploads/public/uploads/219c557b-deef-49bd-91e5-444f8a66f78e2.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0027.jpg
       - src: /uploads/public/uploads/312f946e-bca6-4423-ae84-3f894ab00388.jpg
+      - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
       - src: /uploads/public/uploads/75725dcf-162b-4f46-a885-bde5cd1aeeea.jpg
       - src: /uploads/public/uploads/f684466a-b680-4273-a5a5-dd9f0bd5aad5.jpg
+      - src: /uploads/public/uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
       - src: /uploads/public/uploads/IMG_1999 (1).jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0011.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0016.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0026.jpg
+      - src: /uploads/public/uploads/2fa6f3d0-9f7b-4322-945b-541f24f2c248.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0030.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0095.jpg
       - src: /uploads/public/uploads/IMG-20231010-WA0125.jpg
@@ -109,12 +116,8 @@ blocks:
       - src: /uploads/public/uploads/PHOTO-2024-05-13-10-45-08.jpg
       - src: /uploads/public/uploads/PHOTO-2023-12-04-11-12-030.jpg
       - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
-      - src: /uploads/public/uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
-      - src: /uploads/public/uploads/gallery/d1bfc1fb99af321af22930c0f8e53bae.jpeg
       - src: /uploads/public/uploads/gallery/c3083a9b2e398c3b5f65f72e30539a5f.jpeg
       - src: /uploads/public/uploads/PHOTO-2024-05-14-10-05-46(2).jpg
-      - src: /uploads/public/uploads/gallery/a6cbadbe1fbe437f7d6337ac4cc84940.jpeg
-      - src: /uploads/public/uploads/gallery/a5a37f934a1738d29a89b0b4904f7cfb.jpeg
       - src: /uploads/public/uploads/gallery/9293dd83aec8bd2e5d1bd2bc0987a14a.jpeg
       - src: /uploads/public/uploads/gallery/843d980a279ee05ff377432d0897c0a2.jpeg
       - src: /uploads/public/uploads/gallery/5c59ee2ebd839468dcecca5b6fe20d01.jpeg
@@ -122,9 +125,6 @@ blocks:
       - src: /uploads/public/uploads/gallery/33e03e4387397a986ee514d0cbd0930e.jpeg
       - src: /uploads/public/uploads/gallery/1a905f6217973c4b80fc22338914fe06.jpeg
       - src: /uploads/public/uploads/gallery/1299a8b9e6abfe1e58b974d2bab2eb61.jpeg
-      - src: /uploads/public/uploads/gallery/10a008f6a405c47bbb5880d44da78c5f.jpeg
-      - src: /uploads/public/uploads/gallery/0e3820399a3f311be961e8150ddb9e64.jpeg
-      - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
     _template: imageGallery
 ---
 
