@@ -28,6 +28,16 @@ hero: /uploads/public/uploads/from-the-media-cover.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/WhatsApp Image 2024-10-25 at 18.09.33.jpeg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: חלק מנאום סיום תפקיד מח"ט 300
+    description: ''
+    articleLink: ''
+    linkText: ''
+    _template: image
+  - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/Screenshot from 2024-10-26 16-45-53.png
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: '"להרוג את רומל" - מאמר מעת רועי'
     description: ''

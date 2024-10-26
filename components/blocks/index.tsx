@@ -4,6 +4,7 @@ import { Features } from "./features";
 import { Testimonial } from "./testimonial";
 import { ImageGallery } from "./image-gallery";
 import { Video } from "./video-card";
+import { VideoLocal } from "./video";
 import { Image } from "./image-card";
 import { Timeline } from "./timeline";
 import { StoryForm } from "./story-form";
@@ -42,6 +43,8 @@ const Block = (block: PageBlocks) => {
       return <Timeline data={block} />;
     case "PageBlocksStoryForm":
       return <StoryForm data={block} />;
+    case "PageBlocksVideoLocal":
+      return <VideoLocal data={block} />;
     case "PageBlocksStories":
       // @ts-ignore
       return <Stories data={block} />;

@@ -4,6 +4,7 @@ import { featureBlockSchema } from "../../components/blocks/features";
 import { imageGalleryBlockSchema } from "../../components/blocks/image-gallery";
 import { videoBlockSchema } from "../../components/blocks/video-card";
 import { imageBlockSchema } from "../../components/blocks/image-card";
+import { videoLocalBlockSchema } from "../../components/blocks/video";
 import { timeframeBlockSchema } from "../../components/blocks/timeline";
 import { storyFormBlockSchema } from "../../components/blocks/story-form";
 import { storiesBlockSchema } from "../../components/blocks/stories";
@@ -79,6 +80,8 @@ const Page: Collection = {
         storyFormBlockSchema,
         //@ts-ignore
         storiesBlockSchema,
+        //@ts-ignore
+        videoLocalBlockSchema,
       ],
     },
   ],
