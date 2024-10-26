@@ -24,7 +24,7 @@ seo:
     cardType: summary_large_image
 title: הנצחה
 description: מפעלי ואירועי הנצחה
-hero: /uploads/public/uploads/memorial-cover.jpeg
+hero: ''
 blocks:
   - mediaSide: right
     mediaType: image
