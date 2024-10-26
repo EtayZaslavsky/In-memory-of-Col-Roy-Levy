@@ -24,12 +24,12 @@ seo:
     cardType: summary_large_image
 title: בית
 description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023'
-hero: ''
+hero: /uploads/home-cover1.jpeg
 blocks:
   - mediaSide: right
     mediaType: image
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: 'היי אבא, נספר לך, שתמיד היו שואלים אותנו...'
+    title: 'היי אבא, נספר לך, שתמיד היו שואלים אותנו'
     description: >
       "מה לא קשה לכן לראות את אבא פעם בשבועיים? אתן לא
 
@@ -144,6 +144,14 @@ blocks:
     articleLink: /friends-stories
     linkText: לכל הסיפורים
     _template: image
+  - mediaSide: right
+    mediaType: image
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: הכרת את רועי?
+    description: ''
+    articleLink: /add-story
+    linkText: הוסף סיפור כאן
+    _template: image
   - mediaSide: left
     mediaType: image
     imageSrc: /uploads/public/uploads/96bc960f3728c33c65f131f0b09bcda7.jpeg
@@ -163,15 +171,10 @@ blocks:
     _template: image
   - title: ''
     images:
-      - src: /uploads/public/uploads/gallery/fd2d5b4eaf20f11bc398be8329035c95.jpeg
-      - src: /uploads/public/uploads/about-cover.jpeg
-      - src: /uploads/public/uploads/gallery/33e03e4387397a986ee514d0cbd0930e.jpeg
-      - src: /uploads/public/uploads/gallery/5ad5de823666aec53072d4b5c86e1782.jpeg
-      - src: /uploads/public/uploads/gallery/08474a5d698e32749c667d0190bd409a.jpeg
-      - src: /uploads/public/uploads/gallery/d6a5502aad5b705d386fc5948fa29918.jpeg
-      - src: /uploads/public/uploads/gallery/843d980a279ee05ff377432d0897c0a2.jpeg
-      - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
+      - src: /uploads/public/uploads/801a87d3-8b9f-42d7-8ec3-a5cb56fc4e41.jpg
       - src: /uploads/public/uploads/gallery/07316bf5a82bab41f4527af53b7829b9.jpeg
+      - src: /uploads/public/uploads/gallery/0877ba1c7a50100a06e6d25422921d23.jpeg
+      - src: /uploads/public/uploads/gallery/d6a5502aad5b705d386fc5948fa29918.jpeg
       - src: /uploads/public/uploads/gallery/528ed02ab1239929161352dbef38fc63.jpeg
       - src: /uploads/public/uploads/gallery/e571bef628a336c6929c14a840401000.jpeg
         alt: ''
@@ -179,6 +182,7 @@ blocks:
       - src: /uploads/public/uploads/gallery/a5a37f934a1738d29a89b0b4904f7cfb.jpeg
         alt: ''
         caption: ''
+      - src: /uploads/219c557b-deef-49bd-91e5-444f8a66f78e2.jpg
     _template: imageGallery
 ---
 

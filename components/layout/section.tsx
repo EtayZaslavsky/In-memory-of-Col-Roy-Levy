@@ -33,6 +33,7 @@ export const Section = ({ children, color = "", className = "" }) => {
     <section
       className={`flex-1 relative transition duration-150 ease-out body-font overflow-hidden ${sectionColorCss} ${className}`}
     >
+      {/* <img className="absolute right-0 top-0 w-[20] opacity-30" src="/uploads/kutna" /> */}
       {children}
     </section>
   );
