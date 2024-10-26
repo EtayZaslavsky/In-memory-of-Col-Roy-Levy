@@ -24,17 +24,8 @@ seo:
     cardType: summary_large_image
 title: מהתקשורת
 description: קטעים מהתקשורת
-hero: /uploads/public/uploads/from-the-media-cover.jpeg
+hero: ''
 blocks:
-  - mediaSide: right
-    mediaType: image
-    imageSrc: /uploads/WhatsApp Image 2024-10-25 at 18.09.33.jpeg
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: חלק מנאום סיום תפקיד מח"ט 300
-    description: ''
-    articleLink: ''
-    linkText: ''
-    _template: image
   - mediaSide: right
     mediaType: image
     imageSrc: /uploads/Screenshot from 2024-10-26 16-45-53.png
@@ -44,6 +35,15 @@ blocks:
     articleLink: >-
       https://www.maarachot.idf.il/media/yixamznk/%D7%9C%D7%94%D7%A8%D7%95%D7%92-%D7%90%D7%AA-%D7%A8%D7%95%D7%9E%D7%9C.pdf
     linkText: לקריאת המאמר
+    _template: image
+  - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/WhatsApp Image 2024-10-25 at 18.09.33.jpeg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: חלק מנאום סיום תפקיד מח"ט 300
+    description: ''
+    articleLink: ''
+    linkText: ''
     _template: image
   - mediaSide: right
     mediaType: image
