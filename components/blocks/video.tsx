@@ -6,7 +6,7 @@ import { PageBlocksVideoLocal } from "../../tina/__generated__/types";
 
 export const VideoLocal: React.FC<{ data: PageBlocksVideoLocal }> = ({ data }) => {
     return (
-        <video src={data?.videoSrc ?? ""} controls autoPlay>
+        <video className="mx-auto" src={data?.videoSrc ?? ""} controls autoPlay>
         </video>
     );
 };
