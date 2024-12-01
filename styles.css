@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: "felix";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/felix.woff) format('woff');
+    }
+
+    html {
+        font-family: "felix !important", system-ui, sans-serif;
+    }
+}

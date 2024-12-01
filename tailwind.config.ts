@@ -146,9 +146,7 @@ module.exports = {
         "-1": "-1",
       },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-        nunito: ["var(--font-nunito)", ...fontFamily.sans],
-        lato: ["var(--font-lato)", ...fontFamily.sans],
+        sans: ["var(--font-felix)"],
       },
       typography: (theme) => ({
         DEFAULT: {
