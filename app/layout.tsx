@@ -5,6 +5,7 @@ import { cn } from "../lib/utils";
 import { Metadata } from "next";
 import client from "../tina/__generated__/client";
 import localFont from 'next/font/local';
+import Script from 'next/script';
 
 const felix = localFont({
   src: '../public/fonts/felix.woff'
@@ -26,9 +27,24 @@ export default async function RootLayout({
   const global = globalQuery.data.global;
 
   const fontVariable = "felix";
-
+  const GTAG_ID = "G-T9QLCT8VWW";
   return (
     <html lang="he" dir="rtl" suppressHydrationWarning>
+
+      {/* Google Analytics Script */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GTAG_ID}');
+        `}
+      </Script>
+
       <body
         className={cn("min-h-screen flex flex-col antialiased dark", felix.className)}
         style={{ fontFamily: "felix !important" }} // fontFamily
