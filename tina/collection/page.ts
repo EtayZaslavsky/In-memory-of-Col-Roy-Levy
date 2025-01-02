@@ -59,6 +59,7 @@ const Page: Collection = {
       description:
         "The Hero Image. This is used as the background image for the header",
     },
+    { type: "string", name: "alt", label: "hero alt" },
     {
       type: "object",
       list: true,
