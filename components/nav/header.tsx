@@ -78,9 +78,10 @@ export default function Header() {
                   style: header?.icon?.style,
                 }}
               />{' '}
-              <span data-tina-field={tinaField(header as any, 'name')}>
-                {header?.name}sss
-              </span>
+              {/* <span data-tina-field={tinaField(header as any, 'name')}>
+                {header?.name}
+              </span> */}
+              <img alt="רועי לוי הקצין" src={header?.logo?.url} data-tina-field={tinaField(header as any, 'logo')} />
             </Link>
           </h4>
 

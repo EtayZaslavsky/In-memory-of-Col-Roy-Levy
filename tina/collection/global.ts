@@ -23,6 +23,11 @@ const Global: Collection = {
           name: "name",
         },
         {
+          type: "image",
+          label: "Logo",
+          name: "logo",
+        },
+        {
           type: "string",
           label: "Color",
           name: "color",
