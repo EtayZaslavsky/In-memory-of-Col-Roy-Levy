@@ -23,7 +23,7 @@ seo:
     site: מנציחים את רועי
     cardType: summary_large_image
 title: בית
-description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023'
+description: 'מפקד היחידה הרב-מימדית, נפל בקרב על קיבוץ רעים בשבעה באוקטובר 2023DDsD'
 hero: /uploads/home-cover1.jpeg
 blocks:
   - mediaSide: right

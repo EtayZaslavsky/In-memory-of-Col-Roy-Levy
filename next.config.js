@@ -12,6 +12,12 @@ module.exports = {
     ],
   },
   webpack(config) {
+    config.ignoreWarnings = [
+      {
+        message: /"use client"/, // Suppress warnings related to "use client"
+      },
+    ];
+
     config.module.rules.push({
       test: /\.svg$/i,
       issuer: /\.[jt]sx?$/,
