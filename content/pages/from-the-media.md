@@ -22,8 +22,8 @@ seo:
   twitter:
     site: מנציחים את רועי
     cardType: summary_large_image
-title: מהתקשורת
-description: קטעים מהתקשורת
+title: מחייו
+description: מחייו
 hero: ''
 blocks:
   - mediaSide: right
