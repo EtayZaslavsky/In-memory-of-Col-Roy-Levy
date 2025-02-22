@@ -23,7 +23,7 @@ seo:
     site: מנציחים את רועי
     cardType: summary_large_image
 title: הנצחה
-description: מפעלי ואירועי הנצחה
+description: הנצחה
 hero: ''
 blocks:
   - mediaSide: right
