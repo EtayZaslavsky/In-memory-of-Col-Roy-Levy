@@ -81,7 +81,7 @@ export default function Header() {
               {/* <span data-tina-field={tinaField(header as any, 'name')}>
                 {header?.name}
               </span> */}
-              <img alt="מנציחים את רוע" src={header?.logo?.url} data-tina-field={tinaField(header as any, 'logo')} />
+              <img alt="מנציחים את רועי" src={header?.logo?.url} data-tina-field={tinaField(header as any, 'logo')} />
             </Link>
           </h4>
 
