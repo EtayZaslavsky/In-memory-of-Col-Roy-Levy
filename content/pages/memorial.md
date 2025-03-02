@@ -28,6 +28,15 @@ hero: ''
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/גלעד לזכר רועי בשבי ציון.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: גלעד לזכר רועי בבית העלמין בשבי ציון
+    description: ''
+    articleLink: 'https://www.example.com/video-article'
+    linkText: למצגת מהטקס
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם"'
