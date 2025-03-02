@@ -27,6 +27,14 @@ description: מחייו
 hero: ''
 blocks:
   - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/iMjO1Jo5SQ8?si=GbUpFkkEb4dzzNHA'
+    title: נאום החלפת הכומתה של אגוז
+    description: ''
+    articleLink: ''
+    linkText: Watch Video
+    _template: video
+  - mediaSide: right
     mediaType: image
     imageSrc: /uploads/Screenshot from 2024-10-26 16-45-53.png
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
