@@ -28,6 +28,22 @@ hero: ''
 blocks:
   - mediaSide: right
     mediaType: image
+    imageSrc: /uploads/ספר תורה לזכר רועי.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: ספר תורה לזכר רועי
+    description: >
+      האחים יוסי ושלומי אמיר תרמו 18 ספרי תורה לזכר נופלים במלחמה האחרונה,
+      ביניהם ספר תורה לזכרו של רועי.
+
+
+      הספר הופקד באירוע חגיגי בבית הכנסת 'היכל אבנר', ולכבוד סיום כתיבת ספרי
+      התורה – נערך טקס מרגש באולמי אבניו שבקרית נמל התעופה. בטקס השתתף ונאם נשיא
+      המדינה שגם כתב אות בכל אחד מן הספרים.
+    articleLink: ''
+    linkText: Watch Video
+    _template: image
+  - mediaSide: right
+    mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם"'
