@@ -28,15 +28,6 @@ hero: ''
 blocks:
   - mediaSide: right
     mediaType: image
-    imageSrc: /uploads/גלעד לזכר רועי בשבי ציון.jpg
-    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
-    title: גלעד לזכר רועי בבית העלמין בשבי ציון
-    description: ''
-    articleLink: ''
-    linkText: למצגת מהטקס
-    _template: image
-  - mediaSide: right
-    mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: '"רועי אמר לשטוף ממנו את הדם - והמשיך להילחם"'
@@ -227,6 +218,15 @@ blocks:
     description: "בחודש מרץ 2024 נחנכה פינת השקיעה של רועי.\nבמושב שבי ציון שבגליל המערבי, היכן שרועי גר ביחד\nעם אשתו יעל וילדיהם, היתה נקודה ממש על קו החוף,\nאותה הם אהבו לפקוד מדי פעם בשעות ערב לקראת שקיעה.\nבדיוק בנקודה זו הוקמה נדנדת עץ ואבן זיכרון לידה.\nמוזמנים להגיע ולצפות בשקיעות היפות מהנדנדה.\L\n"
     articleLink: ''
     linkText: קישור למיקום בווייז
+    _template: image
+  - mediaSide: right
+    mediaType: image
+    imageSrc: /uploads/גלעד לזכר רועי בשבי ציון.jpg
+    mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
+    title: גלעד לזכר רועי בבית העלמין בשבי ציון
+    description: ''
+    articleLink: ''
+    linkText: למצגת מהטקס
     _template: image
   - mediaSide: right
     mediaType: video
