@@ -32,7 +32,7 @@ blocks:
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: גלעד לזכר רועי בבית העלמין בשבי ציון
     description: ''
-    articleLink: 'https://www.example.com/video-article'
+    articleLink: ''
     linkText: למצגת מהטקס
     _template: image
   - mediaSide: right
