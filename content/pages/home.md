@@ -148,9 +148,10 @@ blocks:
     mediaType: image
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: הכרת את רועי?
-    description: ''
-    articleLink: ''
-    linkText: שלח לנו סיפור למייל roylevymemorial@proton.me
+    description: |
+      אנחנו אוספים סיפורים מחוויות משותפות עם רועי. נשמח לשמוע בכתובת:
+    articleLink: 'mailto:roylevymemorial@proton.me'
+    linkText: roylevymemorial@proton.me
     _template: image
   - mediaSide: left
     mediaType: image
