@@ -27,6 +27,21 @@ description: הנצחה
 hero: ''
 blocks:
   - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/p0NU1jqX3F0?si=_BWHOItQ8mSfJZ2P'
+    width: -5
+    title: פרק על רועי עם צורי ביתו הבחורה
+    description: >
+      [לחץ להאזנה
+      בSpotify](https://open.spotify.com/episode/1SVIuH9KTSPB8APLFzMJG6?si=DCrwBrhOSLWHWogozKDSnQ)\
+
+      [לחץ להאזנה בApple
+      Podcasts](https://podcasts.apple.com/us/podcast/%D7%A4%D7%A8%D7%A7-25-%D7%90%D7%9C-%D7%9E-%D7%A8%D7%95%D7%A2%D7%99-%D7%99%D7%95%D7%A1%D7%A3-%D7%9C%D7%95%D7%99-%D7%96-%D7%9C-%D7%9C%D7%97%D7%99%D7%95%D7%AA-%D7%90%D7%AA-%D7%94%D7%9E%D7%A9%D7%9E%D7%A2%D7%95%D7%AA/id1792379049?i=1000719876447)
+    articleLink: ''
+    linkText: ''
+    isPortrait: false
+    _template: video
+  - mediaSide: right
     mediaType: image
     imageSrc: /uploads/PHOTO-2024-03-28-06-57-34.jpg
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
