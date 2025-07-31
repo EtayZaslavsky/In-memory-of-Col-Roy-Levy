@@ -30,7 +30,7 @@ blocks:
     mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/p0NU1jqX3F0?si=_BWHOItQ8mSfJZ2P'
     width: -5
-    title: פרק על רועי עם צורי ביתו הבחורה
+    title: 'פרק בפודקאסט "גיבורים" על רועי, עם צורי ביתו הבכורה'
     description: >
       [לחץ להאזנה
       בSpotify](https://open.spotify.com/episode/1SVIuH9KTSPB8APLFzMJG6?si=DCrwBrhOSLWHWogozKDSnQ)\
