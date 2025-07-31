@@ -27,6 +27,14 @@ description: 'מפקד היחידה הרב-מימדית, נפל בקרב על ק
 hero: /uploads/home-cover1.jpeg
 blocks:
   - mediaSide: right
+    mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/lMi2TUQj3PU?si=bqteHpWjUJ-LIVd6'
+    title: סרטון ההנצחה
+    description: ''
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
     mediaType: image
     mediaSrc: 'https://www.youtube-nocookie.com/watch?v=hRF4y5AHo_s'
     title: 'היי אבא, נספר לך, שתמיד היו שואלים אותנו'
