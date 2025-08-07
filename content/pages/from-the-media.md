@@ -28,6 +28,14 @@ hero: ''
 blocks:
   - mediaSide: right
     mediaType: video
+    mediaSrc: 'https://www.youtube-nocookie.com/embed/gBudvD9phaI?si=Lgso01mCTCU6ULvm'
+    title: נאום הכניסה לעזה של רועי לגדסר בצוק איתן
+    description: ''
+    articleLink: ''
+    linkText: ''
+    _template: video
+  - mediaSide: right
+    mediaType: video
     mediaSrc: 'https://www.youtube-nocookie.com/embed/iMjO1Jo5SQ8?si=GbUpFkkEb4dzzNHA'
     title: נאום החלפת הכומתה של אגוז
     description: ''
